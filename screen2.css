@@ -1,0 +1,103 @@
+.screen2_text {
+  position: absolute;
+  width: 72vw;
+  height: 18.5vh;
+  left: 14vw;
+  top: 6.3vh;
+}
+.avatar_name {
+  position: absolute;
+  width: 5.57vw;
+  height: 5.8vh;
+  top: 28.98vh;
+  font-family: "Baloo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 72px;
+  letter-spacing: -0.05em;
+  color: #ffffff;
+}
+#rabit_name {
+  left: 17.55vw;
+}
+#fox_name {
+  left: 38.54vw;
+}
+#bear_name {
+  left: 58.33vw;
+}
+#bear2_name {
+  width: 6.46vw;
+  left: 78.23vw;
+}
+.rabit_screen2 {
+  z-index: 10;
+  position: absolute;
+  width: 11.5vw;
+  height: 36vh;
+  left: 14.37vw;
+  top: 35vh;
+}
+.fox_screen2 {
+  z-index: 10;
+  position: absolute;
+  width: 15vw;
+  height: 35.36vh;
+  left: 34.8vw;
+  top: 35.55vh;
+}
+.bear_screen2 {
+  z-index: 10;
+  position: absolute;
+  width: 12.25vw;
+  height: 33.47vh;
+  left: 54.375vw;
+  top: 37.5vh;
+}
+.bear2_screen2 {
+  z-index: 10;
+  position: absolute;
+  width: 12.25vw;
+  height: 33.47vh;
+  left: 75.15vw;
+  top: 37.5vh;
+}
+.shadow {
+  z-index: 0;
+  position: absolute;
+  width: 9.6vw;
+  height: 2.7vh;
+  top: 69.63vh;
+  background: #303030;
+  filter: blur(30px);
+}
+#shadow1 {
+  left: 15.67vw;
+}
+#shadow2 {
+  left: 36.25vw;
+}
+#shadow3 {
+  left: 55.73vw;
+}
+#shadow4 {
+  left: 76.6vw;
+}
+.btn_continue {
+  background: #ffe9ce;
+  border-radius: 30px;
+  position: absolute;
+  padding: 7px 35px;
+  left: 42vw;
+  bottom: 4vh;
+  font-family: "Baloo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 100px;
+  text-align: center;
+  letter-spacing: -0.05em;
+  color: #000000;
+  box-shadow: 0px 10px #f7c7d5;
+}
