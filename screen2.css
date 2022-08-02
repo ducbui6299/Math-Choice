@@ -31,7 +31,7 @@
   width: 6.46vw;
   left: 78.23vw;
 }
-.rabit_screen2 {
+#rabit_screen2 {
   z-index: 10;
   position: absolute;
   width: 11.5vw;
@@ -39,7 +39,7 @@
   left: 14.37vw;
   top: 35vh;
 }
-.fox_screen2 {
+#fox_screen2 {
   z-index: 10;
   position: absolute;
   width: 15vw;
@@ -47,7 +47,7 @@
   left: 34.8vw;
   top: 35.55vh;
 }
-.bear_screen2 {
+#bear_screen2 {
   z-index: 10;
   position: absolute;
   width: 12.25vw;
@@ -55,7 +55,7 @@
   left: 54.375vw;
   top: 37.5vh;
 }
-.bear2_screen2 {
+#bear2_screen2 {
   z-index: 10;
   position: absolute;
   width: 12.25vw;
@@ -85,6 +85,7 @@
   left: 76.6vw;
 }
 .btn_continue {
+  display: none;
   background: #ffe9ce;
   border-radius: 30px;
   position: absolute;
