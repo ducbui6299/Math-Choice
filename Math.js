@@ -85,7 +85,7 @@ bear_screen2.addEventListener("click", (e) => {
   bear_name.style.color = "#B5FF93";
   btn_continue.style.display = "block";
   fox_screen2.src = "./MathImg/Nor-Slect-Option-Fox.png";
-  bear_screen2.src = "./MathImg/Nor-Slect-Option-Bear.png";
+  bear_screen2.src = "./MathImg/Selected-select-option-bear.png";
   rabit_screen2.src = "./MathImg/Nor-Slect-Option-rabbit.png";
   bear2_screen2.src = "./MathImg/Nor-Slect-Option-Bear2.png";
   cancelEvent()
@@ -110,8 +110,8 @@ bear2_screen2.addEventListener("click", (e) => {
   bear2_name.style.color = "#B5FF93";
   btn_continue.style.display = "block";
   fox_screen2.src = "./MathImg/Nor-Slect-Option-Fox.png";
-  bear_screen2.src = "./MathImg/Nor-Slect-Option-Bear.png";
+  bear2_screen2.src = "./MathImg/Selected-select-option-bear2.png";
   rabit_screen2.src = "./MathImg/Nor-Slect-Option-rabbit.png";
-  bear2_screen2.src = "./MathImg/Nor-Slect-Option-Bear2.png";
+  bear_screen2.src = "./MathImg/Nor-Slect-Option-Bear.png";
   cancelEvent()
 });
