@@ -5,7 +5,7 @@
   left: 14vw;
   top: 6.3vh;
 }
-#Screen2_background{
+#Screen2_background {
   z-index: 0;
 }
 .avatar_name {
@@ -87,7 +87,7 @@
 #shadow4 {
   left: 76.6vw;
 }
-.btn_continue {
+/* .btn_continue {
   display: none;
   background: #ffe9ce;
   border-radius: 30px;
@@ -104,4 +104,12 @@
   letter-spacing: -0.05em;
   color: #000000;
   box-shadow: 0px 10px #f7c7d5;
+} */
+.btn_continue {
+  display: none;
+  position: absolute;
+  width: 17vw;
+  height: 11vh;
+  left: 41.5vw;
+  bottom: 7vh;
 }

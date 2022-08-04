@@ -1,0 +1,31 @@
+.labelBg2 {
+  position: absolute;
+  width: 19.7vw;
+  height: 19.7vw;
+  top: 32.5vh;
+}
+#labelEasy {
+  left: 15.47vw;
+}
+#labelMedium {
+  left: 38.9vw;
+}
+#labelHard {
+  left: 61.93vw;
+}
+.levelText {
+  position: absolute;
+  width: 15.7vw;
+  height: 13.7vw;
+  top: 36.5vh;
+}
+#levelEasy{
+  left: 17.47vw;
+}
+#levelMedium{
+  left: 40.9vw;
+
+}
+#levelHard{
+    left: 63.93vw;
+}

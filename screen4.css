@@ -1,0 +1,38 @@
+.labelbg1 {
+  position: absolute;
+  width: 43vw;
+  height: 25vh;
+  left: 28.5vw;
+}
+#chooseInt {
+  top: 5.46vh;
+}
+#chooseAll {
+  top: 69vh;
+}
+#chooseFloat {
+  top: 37.22vh;
+}
+.reviewText {
+}
+.reviewText {
+  position: absolute;
+}
+#reviewInt {
+  top: 6.63vh;
+  width: 23vw;
+  left: 38.5vw;
+  height: 22vh;
+}
+#reviewFloat {
+  top: 38.05vh;
+  height: 20vh;
+  left: 40vw;
+  width: 20vw;
+}
+#reviewAll {
+  top: 69.83vh;
+  height: 20vh;
+  left: 41vw;
+  width: 18vw;
+}

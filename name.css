@@ -1,0 +1,59 @@
+.homeBtn {
+  position: absolute;
+  width: 9vh;
+  height: 8.8vh;
+  right: 10.5vw;
+  top: 5vh;
+}
+.inputName {
+  position: absolute;
+  width: 70vw;
+  height: 25vh;
+  left: 15vw;
+  top: 15vh;
+}
+.playerName {
+  position: absolute;
+  width: 54vw;
+  height: 7vh;
+  left: 23vw;
+  top: 44vh;
+  background: #ffffff;
+  border-radius: 50px;
+  padding: 5.5vh;
+  text-align: center;
+  border: none;
+  font-family: "Baloo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 6vh;
+  line-height: 100px;
+  letter-spacing: -0.05em;
+  color: #333333;
+}
+.line {
+  position: absolute;
+  opacity: 0.5;
+  width: 50vw;
+  height: 0px;
+  left: 25vw;
+  top: 52.2vh;
+  border: 2px solid rgba(0, 0, 0, 0.5);
+}
+.normalCharacter {
+  z-index: 10;
+  position: absolute;
+  width: 20.5vw;
+  height: 29.25vw;
+  left: 84.37vw;
+  top: 57vh;
+}
+.btn_continue_red {
+    /* display: none; */
+    position: absolute;
+    width: 17vw;
+    height: 12vh;
+    left: 41.5vw;
+    bottom: 7vh;
+  }
+  
