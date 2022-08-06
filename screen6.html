@@ -7,7 +7,7 @@
     <title>Math Fun</title>
     <link rel="stylesheet" href="./Math.css" />
     <link rel="stylesheet" href="./name.css" />
-    <link rel="stylesheet" href="./screen5.css" />
+    <link rel="stylesheet" href="./screen6.css" />
     <link
       href="https://fonts.googleapis.com/css?family=Baloo"
       rel="stylesheet"
@@ -35,8 +35,31 @@
         src="./MathImg/Nor-study-Fox.png"
         alt="normalCharacter"
       />
+      <img class="whiteBoard" src="./MathImg/whiteBoard.png" alt="" />
+      <div id="questionNumber" class="questionNumber">CÂU</div>
+      <div id="question" class="question">
+        Phép tính x – 4 thực hiện được trong tập số tự nhiên khi:
+      </div>
+      <div class="questionChoice">
+        <div class="choiceLine">
+          <div id="choiceA" class="choice" onclick="handleCheck(1,A)">
+            <div class="choiceContent" id="answer1">1</div>
+          </div>
+          <div id="choiceB" class="choice" onclick="handleCheck(2,B)">
+            <div class="choiceContent" id="answer2">2</div>
+          </div>
+        </div>
+        <div class="choiceLine">
+          <div id="choiceC" class="choice" onclick="handleCheck(3,C)">
+            <div class="choiceContent" id="answer3">3</div>
+          </div>
+          <div id="choiceD" class="choice" onclick="handleCheck(4,D)">
+            <div class="choiceContent" id="answer4">4</div>
+          </div>
+        </div>
+      </div>
     </div>
 
-    <script src="Math.js"></script>
+    <script src="screen6.js"></script>
   </body>
 </html>

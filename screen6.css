@@ -1,0 +1,75 @@
+.whiteBoard {
+  position: absolute;
+  width: 55vw;
+  height: 76vh;
+  left: 22.5vw;
+  top: 14vh;
+}
+.questionNumber {
+  position: absolute;
+  left: 42vw;
+  top: 9.8vh;
+  background: #ffa071;
+  padding: 1.8vh 2.7vw;
+  color: #ffffff;
+  width: 18vw;
+  height: 11vh;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+  border-radius: 72px;
+  font-family: "Baloo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 6vh;
+  line-height: 9.25vh;
+  text-align: center;
+  letter-spacing: -0.05em;
+}
+.question {
+  position: absolute;
+  width: 50vw;
+  height: 15vh;
+  left: 25vw;
+  top: 24.9vh;
+  font-family: "Baloo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 6vh;
+  line-height: 6vh;
+  text-align: center;
+  letter-spacing: -0.05em;
+}
+.questionChoice {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  width: 44vw;
+  height: 35vh;
+  left: 28vw;
+  top: 42.6vh;
+  font-family: "Baloo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 6vh;
+  line-height: 6vh;
+  text-align: center;
+  letter-spacing: -0.05em;
+  row-gap: 4.5vh;
+}
+.choiceLine {
+  display: flex;
+  text-align: center;
+  column-gap: 4.5vh;
+}
+.choice {
+  display: flex;
+  width: 22vw;
+  height: 15.3vh;
+  background: #ffbc9b;
+  border-radius: 20px;
+  align-items: center;
+}
+.choiceContent {
+  width: 100%;
+  height: fit-content;
+  text-align: center;
+}

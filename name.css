@@ -46,10 +46,11 @@
   width: 20.5vw;
   height: 29.25vw;
   left: 84.37vw;
-  top: 57vh;
+  bottom: -7vw;
+  overflow: hidden;
 }
 .btn_continue_red {
-    /* display: none; */
+    display: none;
     position: absolute;
     width: 17vw;
     height: 12vh;

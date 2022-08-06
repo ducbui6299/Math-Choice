@@ -16,8 +16,8 @@
   font-family: "Baloo";
   font-style: normal;
   font-weight: 400;
-  font-size: 40px;
-  line-height: 72px;
+  font-size: 2vw;
+  line-height: 6.66vh;
   letter-spacing: -0.05em;
   color: #ffffff;
 }
@@ -87,29 +87,14 @@
 #shadow4 {
   left: 76.6vw;
 }
-/* .btn_continue {
-  display: none;
-  background: #ffe9ce;
-  border-radius: 30px;
-  position: absolute;
-  padding: 7px 35px;
-  left: 42vw;
-  bottom: 4vh;
-  font-family: "Baloo";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 48px;
-  line-height: 100px;
-  text-align: center;
-  letter-spacing: -0.05em;
-  color: #000000;
-  box-shadow: 0px 10px #f7c7d5;
-} */
 .btn_continue {
   display: none;
   position: absolute;
   width: 17vw;
   height: 11vh;
-  left: 41.5vw;
+  left: 51vw;
   bottom: 7vh;
+}
+#btn_pichAgain {
+  left: 33vw;
 }
