@@ -91,10 +91,10 @@ function loadQuiz() {
   let i = numberQuiz - 1;
   question.innerText = quizData[curentQuiz].question;
   questionNumber.innerText = `CÂU ${numberQuiz}`;
-  answer1.innerText = quizData[curentQuiz].A;
-  answer2.innerText = quizData[curentQuiz].B;
-  answer3.innerText = quizData[curentQuiz].C;
-  answer4.innerText = quizData[curentQuiz].D;
+  answer1.innerText = `A. ${quizData[curentQuiz].A}`;
+  answer2.innerText = `B. ${quizData[curentQuiz].B}`;
+  answer3.innerText = `C. ${quizData[curentQuiz].C}`;
+  answer4.innerText = `D. ${quizData[curentQuiz].D}`;
   A.style.backgroundColor = "#FFBC9B";
   B.style.backgroundColor = "#FFBC9B";
   C.style.backgroundColor = "#FFBC9B";
