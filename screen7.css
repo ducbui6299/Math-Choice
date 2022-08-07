@@ -1,7 +1,7 @@
 .lastBoard {
   position: absolute;
   width: 42vw;
-  height: 30vw;
+  height: 53.34vh;
   left: 29vw;
   top: 31vh;
 }
@@ -25,7 +25,7 @@
   width: 19.5vw;
   height: 5.3vw;
   left: 40.25vw;
-  top: 43.2vw;
+  top: 76.8vh;
 }
 .lastCharacter {
   position: absolute;
@@ -46,7 +46,8 @@
   position: absolute;
   width: 26vw;
   left: 37vw;
-  top: 46.66vh;
+  height: 10vh;
+  top: 48vh;
   font-family: "Baloo";
   font-style: normal;
   font-weight: 400;
@@ -61,7 +62,7 @@
     position: absolute;
     width: 26vw;
     left: 37vw;
-    top: 60vh;
+    top: 61vh;
     font-family: "Baloo";
     text-align: center;
     letter-spacing: -0.05em;
@@ -69,23 +70,23 @@
 .totalScore{
     position: absolute;
     left: 39vw;
-    top: 59.5vh;
+    top: 62vh;
     width: 11vw;
     height: 8.856vw;
-    font-size: 11.38vw;
+    font-size: 10.38vw;
     line-height: 15.74vh;
     font-family: "Baloo";
     text-align: center;
     letter-spacing: -0.05em;
-    color:#60B3FF;
+    color:#b760ff;
 }
 .totalQuiz{
     position: absolute;
     width: 9vw;
     height: fit-content;
     left: 50vw;
-    top: 62vh;
-    font-size: 7vw;
+    top: 64vh;
+    font-size: 6vw;
     line-height: 15.74vh;
     font-family: "Baloo";
     text-align: center;

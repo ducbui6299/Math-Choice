@@ -134,7 +134,7 @@ bear2_screen2.addEventListener("click", (e) => {
   bear_screen2.src = "./MathImg/Nor-Slect-Option-Bear.png";
   localStorage.setItem('normalAva',"./MathImg/Nor-study-Bear2.png")
   localStorage.setItem('funAva',"./MathImg/funBear2.png")
-  localStorage.setItem('character',"bear")
+  localStorage.setItem('character',"bear2")
   localStorage.setItem('shockAva',"./MathImg/shockBear2.png")
   cancelEvent();
 

@@ -67,7 +67,7 @@ const quizData = [
     if (val == quizData[curentQuiz].correct) {
       normalCharacter.src = funAvatar;
       pick.style.backgroundColor = "#45D6A1";
-      if (character == "bear") {
+      if (character == "bear"||character == "bear2") {
         normalCharacter.style.height = "34.5vw";
       }
       if(character=="fox"){
