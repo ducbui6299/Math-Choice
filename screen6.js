@@ -55,6 +55,13 @@ let numberQuiz = 1;
 let curentQuiz;
 normalCharacter.src = normalAvatar;
 loadQuiz();
+function handleHover(box){
+  A.style.backgroundColor = "#FFBC9B";
+  B.style.backgroundColor = "#FFBC9B";
+  C.style.backgroundColor = "#FFBC9B";
+  D.style.backgroundColor = "#FFBC9B";
+  box.style.backgroundColor = "#FAC4C0";
+}
 function handleCheck(val, pick) {
   console.log("nhan vat la:", character);
   if (val == quizData[curentQuiz].correct) {
@@ -74,7 +81,7 @@ function handleCheck(val, pick) {
     normalCharacter.src = shockAvatar;
     normalCharacter.style.width = "23.25vw";
     normalCharacter.style.left = "81.37vw";
-    pick.style.backgroundColor = "#FAC4C0";
+    pick.style.backgroundColor = "#FF6060";
   }
   numberQuiz++;
   if (numberQuiz < quizData.length) {

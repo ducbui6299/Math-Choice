@@ -1,0 +1,78 @@
+body {
+  font-family: "Baloo";
+  display: grid;
+  height: 90vh;
+  place-items: center;
+  overflow: hidden;
+
+}
+#app {
+  z-index: 10;
+}
+
+.base-timer {
+  position: relative;
+  width: 35vw;
+  height: 35vw;
+}
+
+.base-timer__svg {
+  transform: scaleX(1);
+  border-radius: 2000px;
+  z-index: 10;
+}
+
+.base-timer__circle {
+  fill: none;
+  stroke: none;
+}
+
+.base-timer__path-elapsed {
+  /* stroke-width: 7px;
+    stroke: grey; */
+  fill: aqua;
+}
+
+.base-timer__path-remaining {
+  stroke-width: 90px;
+  stroke-linecap: butt;
+  transform: rotate(90deg);
+  transform-origin: center;
+  transition: 1s linear all;
+  /* fill: currentColor ; */
+  fill-rule: nonzero;
+  stroke: currentColor;
+}
+
+.base-timer__path-remaining.green {
+  color: rgb(65, 184, 131);
+}
+
+.base-timer__path-remaining.orange {
+  color: orange;
+}
+
+.base-timer__path-remaining.red {
+  color: red;
+}
+
+.base-timer__label {
+  position: absolute;
+  width: 35vw;
+  height: 35vw;
+  top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 25vh;
+  color: #4a4949;
+  line-height: 66px;
+}
+.clockOutline {
+  z-index: 0;
+  position: absolute;
+  width: 46vw;
+  height: 52vw;
+  left: 27vw;
+  top: -1vw;
+}

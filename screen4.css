@@ -36,3 +36,12 @@
   left: 41vw;
   width: 18vw;
 }
+.clock {
+  overflow: hidden;
+  transform: scale(0.3);
+  position: absolute;
+  top: -17vw;
+  height: 100vh;
+  left: 0vw;
+  width: 100vh;
+}

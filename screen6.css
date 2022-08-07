@@ -73,3 +73,15 @@
   height: fit-content;
   text-align: center;
 }
+iframe {
+  overflow: hidden;
+}
+.clock {
+  overflow: hidden;
+  position: fixed;
+  position: fixed;
+  top: 12vh;
+  height: 15vh;
+  left: 16vw;
+  width: 14vw;
+}
