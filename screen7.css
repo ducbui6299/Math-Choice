@@ -1,0 +1,94 @@
+.lastBoard {
+  position: absolute;
+  width: 42vw;
+  height: 30vw;
+  left: 29vw;
+  top: 31vh;
+}
+.lastTitle {
+  position: absolute;
+  width: 27.5vw;
+  height: 9.5vw;
+  left: -1vw;
+  top: 4vh;
+}
+.totalStar {
+  position: absolute;
+  width: 24.5vw;
+  height: 9.5vw;
+  left: 37.75vw;
+  top: 34vh;
+}
+.screenShotBtn {
+  z-index: 5;
+  position: absolute;
+  width: 19.5vw;
+  height: 5.3vw;
+  left: 40.25vw;
+  top: 43.2vw;
+}
+.lastCharacter {
+  position: absolute;
+  width: 26.56vw;
+  height: 18.75vw;
+  left: 37.22vw;
+  top: 0px;
+}
+.hand {
+  z-index: 10;
+  position: absolute;
+  width: 21.35vw;
+  height: 3.4375vw;
+  left: 39.75vw;
+  top: 29.26vh;
+}
+.scoreText {
+  position: absolute;
+  width: 26vw;
+  left: 37vw;
+  top: 46.66vh;
+  font-family: "Baloo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 3.38vw;
+  line-height: 15.74vh;
+  text-align: center;
+  letter-spacing: -0.05em;
+  color: #373e4a;
+}
+.totalScoreContent {
+    display: flex;
+    position: absolute;
+    width: 26vw;
+    left: 37vw;
+    top: 60vh;
+    font-family: "Baloo";
+    text-align: center;
+    letter-spacing: -0.05em;
+}
+.totalScore{
+    position: absolute;
+    left: 39vw;
+    top: 59.5vh;
+    width: 11vw;
+    height: 8.856vw;
+    font-size: 11.38vw;
+    line-height: 15.74vh;
+    font-family: "Baloo";
+    text-align: center;
+    letter-spacing: -0.05em;
+    color:#60B3FF;
+}
+.totalQuiz{
+    position: absolute;
+    width: 9vw;
+    height: fit-content;
+    left: 50vw;
+    top: 62vh;
+    font-size: 7vw;
+    line-height: 15.74vh;
+    font-family: "Baloo";
+    text-align: center;
+    letter-spacing: -0.05em;
+    color:#752A6F;
+}

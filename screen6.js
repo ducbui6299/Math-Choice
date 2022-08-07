@@ -53,14 +53,33 @@ const result = 1;
 let score = 0;
 let numberQuiz = 1;
 let curentQuiz;
+localStorage.setItem('timeOut',false)
+localStorage.setItem("totalQuiz", numberQuiz - 1)
+localStorage.setItem("score", score)
+let timeOut = localStorage.getItem("timeOut");
 normalCharacter.src = normalAvatar;
 loadQuiz();
-function handleHover(box){
+checkTime()
+function handleHover(box) {
   A.style.backgroundColor = "#FFBC9B";
   B.style.backgroundColor = "#FFBC9B";
   C.style.backgroundColor = "#FFBC9B";
   D.style.backgroundColor = "#FFBC9B";
   box.style.backgroundColor = "#FAC4C0";
+}
+function onTimesOut() {
+  clearInterval(timerCheck);
+}
+function checkTime() {
+  timerCheck = setInterval(() => {
+    timeOut = localStorage.getItem("timeOut");
+    console.log("time out:", timeOut);
+    if(timeOut=='true'){
+      console.log("het gio")
+      window.location.href = "screen7.html";
+      onTimesOut();
+    }
+  }, 1000);
 }
 function handleCheck(val, pick) {
   console.log("nhan vat la:", character);
@@ -70,10 +89,10 @@ function handleCheck(val, pick) {
     if (character == "bear") {
       normalCharacter.style.height = "34.5vw";
     }
-    if(character=="fox"){
+    if (character == "fox") {
       normalCharacter.style.height = "31vw";
     }
-    if(character=="rabbit"){
+    if (character == "rabbit") {
       normalCharacter.style.height = "30.75vw";
     }
     score++;
@@ -84,13 +103,12 @@ function handleCheck(val, pick) {
     pick.style.backgroundColor = "#FF6060";
   }
   numberQuiz++;
-  if (numberQuiz < quizData.length) {
-    setTimeout(loadQuiz, 1000);
-  } else {
-    window.location.href = "screen7.html";
+  setTimeout(loadQuiz, 1000);
+  // else {
+  //   window.location.href = "screen7.html";
     localStorage.setItem("totalQuiz", numberQuiz - 1);
     localStorage.setItem("score", score);
-  }
+  // }
   cancelPick();
 }
 function loadQuiz() {

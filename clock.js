@@ -4,23 +4,24 @@ const ALERT_THRESHOLD = 5;
 
 const COLOR_CODES = {
   info: {
-    color: "green"
+    color: "green",
   },
   warning: {
     color: "orange",
-    threshold: WARNING_THRESHOLD
+    threshold: WARNING_THRESHOLD,
   },
   alert: {
     color: "red",
-    threshold: ALERT_THRESHOLD
-  }
+    threshold: ALERT_THRESHOLD,
+  },
 };
 
-const TIME_LIMIT = 300;
+const TIME_LIMIT = 20;
 let timePassed = 0;
 let timeLeft = TIME_LIMIT;
 let timerInterval = null;
 let remainingPathColor = COLOR_CODES.info.color;
+localStorage.setItem('timeOut',false)
 
 document.getElementById("app").innerHTML = `
 <div class="base-timer">
@@ -54,15 +55,17 @@ function onTimesUp() {
 
 function startTimer() {
   timerInterval = setInterval(() => {
+    localStorage.setItem('timeOut',false)
     timePassed = timePassed += 1;
     timeLeft = TIME_LIMIT - timePassed;
-    document.getElementById("base-timer-label").innerHTML = formatTime(
-      timeLeft
-    );
+    document.getElementById("base-timer-label").innerHTML =
+      formatTime(timeLeft);
     setCircleDasharray();
     setRemainingPathColor(timeLeft);
 
     if (timeLeft === 0) {
+      console.log("het gio roi")
+      localStorage.setItem('timeOut',true)
       onTimesUp();
     }
   }, 1000);
