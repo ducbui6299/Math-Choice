@@ -1,11 +1,112 @@
-.blurBG{
-    display: none;
-    z-index: 50;
-    position: absolute;
-    left:0;
-    top:0;
-    width: 100vw;
-    height: 100vh;
-    background-color: black;
-    opacity: 0.5;
+.infoWrapper {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+.infoPopUp {
+  display: none;
+  z-index: 60;
+  width: 100%;
+  height: 100%;
+}
+.blurBG {
+  display: none;
+  z-index: 50;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #353535;
+  opacity: 0.7;
+}
+.boardPlayer {
+  z-index: 60;
+
+  position: absolute;
+  width: 43.43vw;
+  height: 74vh;
+  left: 28.285vw;
+  top: 14vh;
+}
+#close_popup_btn {
+  z-index: 60;
+
+  position: absolute;
+  width: 4.44vh;
+  height: 4.5vh;
+  left: 70.5vw;
+  top: 11.48vh;
+}
+.avatarPlayer {
+  z-index: 60;
+
+  position: absolute;
+  width: 16.6vw;
+  height: 36.85vh;
+  left: 31.66vw;
+  top: 21.17vh;
+}
+.subInfo {
+  z-index: 60;
+
+  position: absolute;
+  width: 15.6vw;
+  height: 8vh;
+  left: 51.45vw;
+  font-family: "Baloo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 3.7vh;
+  line-height: 6.11vh;
+  display: flex;
+  align-items: center;
+  letter-spacing: -0.05em;
+  color: #ffa562;
+}
+#subInfo_phone {
+  top: 33.33vh;
+}
+#subInfo_email {
+  top: 46.83vh;
+}
+#playerTitle {
+  top: 18.85vh;
+  font-size: 4.44vh;
+}
+.schoolName {
+  z-index: 60;
+
+  position: absolute;
+  width: 31.25vw;
+  height: 14vh;
+  left: 34.375vw;
+  top: 65.7vh;
+}
+.subInfoPlayer {
+  z-index: 60;
+
+  position: absolute;
+  width: 17.66vw;
+  height: 8vh;
+  left: 51.45vw;
+  font-family: "Baloo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 4.44vh;
+  line-height: 6.11vh;
+  display: flex;
+  align-items: center;
+  letter-spacing: -0.05em;
+  color: #333333;
+}
+#playerName {
+  top: 24.22vh;
+}
+#playerPhone {
+  top: 37.74vh;
+}
+#playerEmail {
+  top: 51.18vh;
 }

@@ -11,6 +11,8 @@
       href="https://fonts.googleapis.com/css?family=Baloo"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="./InfoPopUp.css" />
+
   </head>
   <body>
     <div class="Screen1">
@@ -36,9 +38,9 @@
       />
       <input
         type="text"
-        class="playerName"
-        id="playerName"
-        name="playerName"
+        class="playerNameInput"
+        id="playerNameInput"
+        name="playerNameInput"
         placeholder="TÊN CỦA BẠN"
         onchange="handleInput()"
       />
@@ -58,6 +60,19 @@
           alt="Countinue"
         />
       </a>
+      <div id="blurBG" class="blurBG"></div>
+        <div id="infoPopUp" class="infoPopUp">
+          <img class="boardPlayer" src="./MathImg/infoBoard.png" alt="" />
+          <img id="close_popup_btn" src="./MathImg/closePopupBtn.png" alt="" />
+          <img class="avatarPlayer" src="./MathImg/avatarPlayer.png" alt="">
+          <img class="schoolName" src="./MathImg/schoolName.png" alt="" />
+          <div class="subInfo" id="playerTitle">Họ tên:</div>
+          <div class="subInfoPlayer" id="playerName">TRẦN VĂN A</div>
+          <div class="subInfo" id="subInfo_phone">Số điện thoại:</div>
+          <div class="subInfoPlayer" id="playerPhone">012 45 6789</div>
+          <div class="subInfo" id="subInfo_email">Email:</div>
+          <div class="subInfoPlayer" id="playerEmail">email@gmail.com</div>
+        </div>
     </div>
 
     <script src="screen2.js"></script>

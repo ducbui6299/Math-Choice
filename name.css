@@ -12,7 +12,7 @@
   left: 15vw;
   top: 15vh;
 }
-.playerName {
+.playerNameInput {
   position: absolute;
   width: 54vw;
   height: 7vh;
