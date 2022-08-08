@@ -53,13 +53,42 @@ const result = 1;
 let score = 0;
 let numberQuiz = 1;
 let curentQuiz;
-localStorage.setItem('timeOut',false)
-localStorage.setItem("totalQuiz", numberQuiz - 1)
-localStorage.setItem("score", score)
+let level = localStorage.getItem("level");
+let reviewTitle = localStorage.getItem("reviewTitle");
+localStorage.setItem("timeOut", false);
+localStorage.setItem("totalQuiz", numberQuiz - 1);
+localStorage.setItem("score", score);
 let timeOut = localStorage.getItem("timeOut");
 normalCharacter.src = normalAvatar;
 loadQuiz();
-checkTime()
+checkTime();
+function setDataQuiz() {
+  if (reviewTitle == "all") {
+    quizData = allData;
+  }
+  if (reviewTitle == "int") {
+    if (level == "easy") {
+      quizData = easyInt;
+    }
+    if (level == "medium") {
+      quizData = mediumInt;
+    }
+    if (level == "hard") {
+      quizData = hardInt;
+    }
+  }
+  if (reviewTitle == "float") {
+    if (level == "easy") {
+      quizData = easyFloat;
+    }
+    if (level == "medium") {
+      quizData = mediumFloat;
+    }
+    if (level == "hard") {
+      quizData = hardFloat;
+    }
+  }
+}
 function handleHover(box) {
   A.style.backgroundColor = "#FFBC9B";
   B.style.backgroundColor = "#FFBC9B";
@@ -74,8 +103,8 @@ function checkTime() {
   timerCheck = setInterval(() => {
     timeOut = localStorage.getItem("timeOut");
     console.log("time out:", timeOut);
-    if(timeOut=='true'){
-      console.log("het gio")
+    if (timeOut == "true") {
+      console.log("het gio");
       window.location.href = "screen7.html";
       onTimesOut();
     }
@@ -86,7 +115,7 @@ function handleCheck(val, pick) {
   if (val == quizData[curentQuiz].correct) {
     normalCharacter.src = funAvatar;
     pick.style.backgroundColor = "#45D6A1";
-    if (character == "bear"||character == "bear2") {
+    if (character == "bear" || character == "bear2") {
       normalCharacter.style.height = "34.5vw";
     }
     if (character == "fox") {
@@ -106,20 +135,20 @@ function handleCheck(val, pick) {
   setTimeout(loadQuiz, 1000);
   // else {
   //   window.location.href = "screen7.html";
-    localStorage.setItem("totalQuiz", numberQuiz - 1);
-    localStorage.setItem("score", score);
+  localStorage.setItem("totalQuiz", numberQuiz - 1);
+  localStorage.setItem("score", score);
   // }
   cancelPick();
 }
 function loadQuiz() {
   curentQuiz = Math.floor(Math.random() * quizData.length);
   let i = numberQuiz - 1;
-  question.innerText = quizData[curentQuiz].question;
+  question.innerHTML = quizData[curentQuiz].question;
   questionNumber.innerText = `CÂU ${numberQuiz}`;
-  answer1.innerText = `A. ${quizData[curentQuiz].A}`;
-  answer2.innerText = `B. ${quizData[curentQuiz].B}`;
-  answer3.innerText = `C. ${quizData[curentQuiz].C}`;
-  answer4.innerText = `D. ${quizData[curentQuiz].D}`;
+  answer1.innerHTML = `A. ${quizData[curentQuiz].A}`;
+  answer2.innerHTML = `B. ${quizData[curentQuiz].B}`;
+  answer3.innerHTML = `C. ${quizData[curentQuiz].C}`;
+  answer4.innerHTML = `D. ${quizData[curentQuiz].D}`;
   A.style.backgroundColor = "#FFBC9B";
   B.style.backgroundColor = "#FFBC9B";
   C.style.backgroundColor = "#FFBC9B";
