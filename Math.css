@@ -81,6 +81,7 @@ body {
   bottom: 0px;
 }
 .info_btn_screen1{
+  cursor: pointer;
   width: 9vh;
   height: 8.8vh;
   right: 3.6vw;

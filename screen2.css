@@ -35,6 +35,7 @@
   left: 78.23vw;
 }
 #rabit_screen2 {
+  cursor: pointer;
   z-index: 10;
   position: absolute;
   width: 11.5vw;
@@ -43,6 +44,7 @@
   top: 35vh;
 }
 #fox_screen2 {
+  cursor: pointer;
   z-index: 10;
   position: absolute;
   width: 15vw;
@@ -51,6 +53,7 @@
   top: 35.55vh;
 }
 #bear_screen2 {
+  cursor: pointer;
   z-index: 10;
   position: absolute;
   width: 12.25vw;
@@ -59,6 +62,7 @@
   top: 37.5vh;
 }
 #bear2_screen2 {
+  cursor: pointer;
   z-index: 10;
   position: absolute;
   width: 12.25vw;
@@ -97,4 +101,5 @@
 }
 #btn_pichAgain {
   left: 33vw;
+  cursor: pointer;
 }

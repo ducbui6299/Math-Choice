@@ -6,6 +6,7 @@
   top: 14vh;
 }
 .questionNumber {
+  cursor: pointer;
   position: absolute;
   left: 42vw;
   top: 9.8vh;
@@ -25,20 +26,23 @@
   letter-spacing: -0.05em;
 }
 .question {
+  cursor: pointer;
+  padding-top: 20px;
   position: absolute;
   width: 50vw;
-  height: 15vh;
+  height: 17vh;
   left: 25vw;
-  top: 24.9vh;
+  top: 21.9vh;
   font-family: "Baloo";
   font-style: normal;
   font-weight: 400;
-  font-size: 6vh;
-  line-height: 6vh;
+  font-size: 5vh;
+  line-height: 5vh;
   text-align: center;
   letter-spacing: -0.05em;
 }
 .questionChoice {
+  cursor: pointer;
   position: absolute;
   display: flex;
   flex-direction: column;
@@ -49,8 +53,8 @@
   font-family: "Baloo";
   font-style: normal;
   font-weight: 400;
-  font-size: 6vh;
-  line-height: 6vh;
+  font-size: 5vh;
+  line-height: 5vh;
   text-align: center;
   letter-spacing: -0.05em;
   row-gap: 4.5vh;
@@ -61,6 +65,7 @@
   column-gap: 4.5vh;
 }
 .choice {
+  cursor: pointer;
   display: flex;
   width: 22vw;
   height: 15.3vh;

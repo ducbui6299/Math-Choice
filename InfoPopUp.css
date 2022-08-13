@@ -25,19 +25,19 @@
   z-index: 60;
 
   position: absolute;
-  width: 43.43vw;
+  width: 40.43vw;
   height: 74vh;
   left: 28.285vw;
   top: 14vh;
 }
 #close_popup_btn {
-  z-index: 60;
-
+  z-index: 70;
+  cursor: pointer;
   position: absolute;
   width: 4.44vh;
   height: 4.5vh;
-  left: 70.5vw;
-  top: 11.48vh;
+  left: 65.5vw;
+  top: 18.48vh;
 }
 .avatarPlayer {
   z-index: 60;
@@ -86,7 +86,6 @@
 }
 .subInfoPlayer {
   z-index: 60;
-
   position: absolute;
   width: 17.66vw;
   height: 8vh;
