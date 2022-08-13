@@ -4193,7 +4193,7 @@ function handleCheck(val, pick) {
 }
 function loadQuiz() {
   if (numberQuiz < 6) {
-    console.log("van dang nho hon 5,",curentQuiz);
+    curentQuiz = Math.floor(Math.random() *149);
   }
   if (numberQuiz < 11 && numberQuiz > 6) {
     curentQuiz = Math.floor(Math.random() *(299 - 149 + 1)) + 149;
