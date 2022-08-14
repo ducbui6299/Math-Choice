@@ -1,4 +1,4 @@
-const easyInt = [
+const easyFloat = [
   {
     question: "Chọn đáp án sai. Số -64 được đọc là:",
     A: "Âm sáu mươi tư",
@@ -801,7 +801,7 @@ const easyInt = [
     answer: 3,
   },
 ];
-const mediumInt = [
+const mediumFloat = [
   {
     question: "Chọn khẳng định đúng trong các khẳng định sau?",
     A: "Số 0 là số nguyên âm",
@@ -1618,7 +1618,7 @@ const mediumInt = [
     answer: 2,
   },
 ];
-const hardInt = [
+const hardFloat = [
   {
     question:
       "Trong các số sau, số nguyên âm nào lớn nhất và số nguyên âm nào nhỏ nhất:-197; -86; -18; -4; -976; -118; -6; -91.",
@@ -2453,7 +2453,7 @@ const hardInt = [
     answer: 1,
   },
 ];
-const easyFloat = [
+const easyInt = [
   {
     question: "Tính: 63 548 + 19 256",
     A: "82 804",
@@ -2854,7 +2854,7 @@ const easyFloat = [
     answer: 2,
   },
 ];
-const mediumFloat = [
+const mediumInt = [
   {
     question: "Phép tính x - 4 thực hiện được trong tập số tự nhiên khi:",
     A: "x > 4",
@@ -3268,7 +3268,7 @@ const mediumFloat = [
     answer: 4,
   },
 ];
-const hardFloat = [
+const hardInt = [
   {
     question:
       "Cho các cách viết sau: A = [a, b, c, d]; B = {2; 13; 45}; C = (1; 2; 3); D = 1. Có bao nhiêu cách viết tập hợp là đúng?",
