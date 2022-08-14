@@ -1,3 +1,8 @@
+
+.Screen1 {
+  width: 100vw;
+  height: 100vh;
+}
 .lastBoard {
   position: absolute;
   width: 42vw;

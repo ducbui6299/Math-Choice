@@ -13,17 +13,22 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./InfoPopUp.css" />
-
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"
+      integrity="sha512-BNaRQnYJYiPSqHHDb58B0yaPfCu+Wgds8Gp/gU33kqBtgNS4tSPHuGibyoeqMV/TJlSKda6FXzoEyYGjTe+vXA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
   </head>
-  <body>
-    <div class="Screen1">
+  <body style="overflow: auto">
+    <div id="capture" class="Screen7" style="overflow: auto">
       <img
         class="Screen1_background"
         id="Screen2_background"
         src="./MathImg/screen3Bg.png"
         alt="Ảnh nen avatar"
       />
-      <img class="shineBg" src="./MathImg/shineBG.png" alt="">
+      <img class="shineBg" src="./MathImg/shineBG.png" alt="" />
       <img
         id="btn_info"
         class="info_btn_screen1"
@@ -45,6 +50,7 @@
         id="screenShotBtn"
         src="./MathImg/screenShotBtn.png"
         alt=""
+        onclick="screenshot()"
       />
       <img class="lastBoard" src="./MathImg/lastBorad.png" alt="" />
       <img
@@ -63,12 +69,19 @@
       <div id="totalScore" class="totalScore">10</div>
       <div id="totalQuiz" class="totalQuiz">/15</div>
       <div id="blurBG" class="blurBG"></div>
-        <div id="infoPopUp" class="infoPopUp">
-          <img id="close_popup_btn" src="./MathImg/closePopupBtn.png" alt="" />
-          <img class="boardPlayer" src="./MathImg/infoAuthor.png" alt="" />
-        </div>
+      <div id="infoPopUp" class="infoPopUp">
+        <img id="close_popup_btn" src="./MathImg/closePopupBtn.png" alt="" />
+        <img class="boardPlayer" src="./MathImg/infoAuthor.png" alt="" />
+      </div>
     </div>
     <script src="screen7.js"></script>
     <script src="popUp.js"></script>
+    <script>
+      function screenshot() {
+        html2canvas(document.querySelector("#capture")).then((canvas) => {
+          document.body.appendChild(canvas);
+        });
+      }
+    </script>
   </body>
 </html>
