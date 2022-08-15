@@ -15,17 +15,23 @@
 }
 .levelText {
   position: absolute;
-  width: 15.7vw;
-  height: 13.7vw;
-  top: 36.5vh;
+
 }
 #levelEasy{
-  left: 17.47vw;
+  left: 20.47vw;
+  width: 9.7vw;
+  height: 8.7vw;
+  top: 40.5vh;
 }
 #levelMedium{
   left: 40.9vw;
-
+  width: 15.7vw;
+  height: 12.7vw;
+  top: 39.5vh;
 }
 #levelHard{
-    left: 63.93vw;
+  left: 66.93vw;
+  width: 10.7vw;
+  height: 7.7vw;
+  top: 42.5vh;
 }
