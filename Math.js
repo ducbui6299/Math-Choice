@@ -9,14 +9,12 @@ const bear_screen2 = document.getElementById("bear_screen2");
 const rabit_screen2 = document.getElementById("rabit_screen2");
 const btn_continue = document.getElementById("btn_continue");
 const btn_pichAgain = document.getElementById("btn_pichAgain");
-
 function cancelEvent() {
   fox_screen2.style.pointerEvents = "none";
   bear2_screen2.style.pointerEvents = "none";
   rabit_screen2.style.pointerEvents = "none";
   bear_screen2.style.pointerEvents = "none";
 }
-
 // Fox action
 fox_screen2.addEventListener("click", (e) => {
   btn_continue.style.display = "block";

@@ -1,4 +1,5 @@
 const hand = document.getElementById("hand");
+const congatulation = document.getElementById("congatulation");
 const totalStar = document.getElementById("totalStar");
 const totalScore = document.getElementById("totalScore");
 const totalQuiz = document.getElementById("totalQuiz");
@@ -8,6 +9,15 @@ totalQuiz.innerText = `/${localStorage.getItem("totalQuiz")}`;
 totalScore.innerText = localStorage.getItem("score");
 let character = localStorage.getItem("character");
 let reviewTitle = localStorage.getItem("reviewTitle");
+let studentName = localStorage.getItem("studentName");
+var music = new Audio();
+music.src = "./sound/music.mp3";
+music.play();
+function playMusic() {
+  var music = new Audio();
+  music.src = "./sound/music.mp3";
+  music.play();
+}
 
 handleSrcImg();
 function handleSrcImg() {
@@ -36,4 +46,5 @@ function handleSrcImg() {
   if (reviewTitle == "float") {
     lastTitle.src = "./MathImg/lastFloat.png";
   }
+  congatulation.innerText = `Chúc mừng ${studentName}`;
 }

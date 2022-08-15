@@ -12,7 +12,7 @@ const easyFloat = [
     A: "423",
     B: "-423",
     C: "234",
-    D: "+ 423",
+    D: "+423",
     answer: 2,
   },
   {
@@ -122,8 +122,8 @@ const easyFloat = [
     question: "Chọn câu đúng?",
     A: "Z = {0; 1; 2; 3; …}",
     B: "Z = {…; -3; -2; -1; 0}",
-    C: "Z = {...; -2; -1; 0; 1; 2; ...}",
-    D: "Z = {...; -2; -1; 1; 2; ...}",
+    C: "Z = {…; -2; -1; 0; 1; 2; …}",
+    D: "Z = {…; -2; -1; 1; 2; …}",
     answer: 3,
   },
   {
@@ -345,7 +345,7 @@ const easyFloat = [
     answer: 4,
   },
   {
-    question: "Điền kí hiệu tập số phù hợp vào chỗ trống  ",
+    question: "Điền kí hiệu tập số phù hợp vào chỗ trống -20 ∈ ...",
     A: "N",
     B: "N*",
     C: "Z",
@@ -507,7 +507,7 @@ const easyFloat = [
     answer: 1,
   },
   {
-    question: "Kết quả phép tính 7 -(-2) là ?",
+    question: "Kết quả phép tính 7 - (-2) là ?",
     A: "5",
     B: "14",
     C: "-5",
@@ -515,7 +515,7 @@ const easyFloat = [
     answer: 4,
   },
   {
-    question: "Kết quả phép tính (-10) -(-20) là ?",
+    question: "Kết quả phép tính (-10) - (-20) là ?",
     A: "-10",
     B: "10",
     C: "-30",
@@ -523,7 +523,7 @@ const easyFloat = [
     answer: 2,
   },
   {
-    question: "Kết quả phép tính -(-35) + 25 là ?",
+    question: "Kết quả phép tính -(-35) + 25 là ?", 
     A: "10",
     B: "5",
     C: "60",
@@ -531,7 +531,7 @@ const easyFloat = [
     answer: 3,
   },
   {
-    question: "Tính 125 -200",
+    question: "Tính 125 - 200",
     A: "-75",
     B: "75",
     C: "-85",
@@ -555,7 +555,7 @@ const easyFloat = [
     answer: 1,
   },
   {
-    question: "Kết quả của phép tính 898 -1 008 là:",
+    question: "Kết quả của phép tính 898 - 1008 là:",
     A: "Số nguyên âm",
     B: "Số nguyên dương",
     C: "Số lớn hơn 3",
@@ -588,7 +588,7 @@ const easyFloat = [
     answer: 3,
   },
   {
-    question: "Biểu diễn hiệu (-28) -(-32) thành dạng tổng là:",
+    question: "Biểu diễn hiệu (-28) - (-32) thành dạng tổng là:",
     A: "(-28) + (-32)",
     B: "(-28) + 32",
     C: "28 + (-32)",
@@ -605,7 +605,7 @@ const easyFloat = [
     answer: 2,
   },
   {
-    question: "Thay dấu * bằng chữ số thích hợp 28 + (-(1*))  = 16",
+    question: "Thay dấu * bằng chữ số thích hợp 28 + (-(1*)) = 16",
     A: "4",
     B: "0",
     C: "9",
@@ -697,7 +697,7 @@ const easyFloat = [
   {
     question: "Chọn câu đúng.",
     A: "(-23) . (-16) > 23. (-16)",
-    B: "(-23)  . (-16) = 23 . (-16)",
+    B: "(-23) . (-16) = 23 . (-16)",
     C: "(-23) . (-16) < 23. (-16)",
     D: "(-23) . 16 > 23 . (-6)",
     answer: 1,
@@ -793,7 +793,7 @@ const easyFloat = [
     answer: 4,
   },
   {
-    question: "Tìm giá trị của x biết: (-8).x=160",
+    question: "Tìm giá trị của x biết: (-8).x = 160",
     A: "x = -9",
     B: "x = 5",
     C: "x = -20",
@@ -872,11 +872,11 @@ const mediumFloat = [
     answer: 3,
   },
   {
-    question: "Nếu 20°C biểu diễn 20 độ trên 0°C thì -5°C biểu diễn:",
-    A: "-5°C trên 0°C",
-    B: "-5°C dưới 0°C",
-    C: "5°C trên 0°C",
-    D: "5°C dưới 0°C",
+    question: "Nếu 20<sup>o</sup>C biểu diễn 20 độ trên 0<sup>o</sup>C thì -5<sup>o</sup>C biểu diễn:",
+    A: "-5<sup>o</sup>C trên 0<sup>o</sup>C",
+    B: "-5<sup>o</sup>C dưới 0<sup>o</sup>C",
+    C: "5<sup>o</sup>C trên 0<sup>o</sup>C",
+    D: "-5<sup>o</sup>C dưới 0<sup>o</sup>C",
     answer: 4,
   },
   {
@@ -987,10 +987,10 @@ const mediumFloat = [
   },
   {
     question: "Tập hợp tất cả các số nguyên x thoả mãn -2 < x < 2 là:",
-    A: "{-1;1;2}",
-    B: "{-2;10;2}",
-    C: "{-1;0;1}",
-    D: "{-2;-1;0;1;2}",
+    A: "{-1; 1; 2}",
+    B: "{-2; 10; 2}",
+    C: "{-1; 0; 1}",
+    D: "{-2; -1; 0; 1; 2}",
     answer: 3,
   },
   {
@@ -1020,7 +1020,7 @@ const mediumFloat = [
   },
   {
     question:
-      "Cho tập hợp M={a∈Z|-3<a≤1} . Kết quả liệt kê các phần tử của tập hợp M là:",
+      "Cho tập hợp M={a∈Z|-3<a≤1}. Kết quả liệt kê các phần tử của tập hợp M là:",
     A: "M = {-2; -1; 0; 1}",
     B: "M = {-2; -1; 0}",
     C: "M = {-3; -2; -1; 0; 1}",
@@ -1070,7 +1070,7 @@ const mediumFloat = [
     answer: 1,
   },
   {
-    question: "Viết tập hợp các số nguyên x biết:. A = {x∈ Z| -5 ≤x<1}",
+    question: "Viết tập hợp các số nguyên x biết:. A = {x∈Z|-5≤x<1}",
     A: "A = {-5; -4; -3; -2; -1; 0}",
     B: "A = {-5; -4; -3; -2; -1; 0; 1}",
     C: "A = {-4; -3; -2; -1; 0}",
@@ -1079,10 +1079,10 @@ const mediumFloat = [
   },
   {
     question: "Viết tập hợp sau bằng cách khác: D = {…; -3; -2; -1; 0; 1; 2}",
-    A: "D = {x∈ Z| x<2}",
-    B: "D = {x∈ Z| x≤2}",
-    C: "D = {x∈ Z|-3 ≤x≤2}",
-    D: "D = {x∈ Z|-3<x<2}",
+    A: "D = {x∈Z|x<2}",
+    B: "D = {x∈Z|x≤2}",
+    C: "D = {x∈Z|-3≤x≤2}",
+    D: "D = {x∈Z|-3<x<2}",
     answer: 2,
   },
   {
@@ -1094,7 +1094,7 @@ const mediumFloat = [
     answer: 3,
   },
   {
-    question: "Cho tập hợp J = {x ∈ Z | -13 < x < -12}. J có mấy phần tử?",
+    question: "Cho tập hợp J = {x∈Z|-13<x<-12}. J có mấy phần tử?",
     A: "1 phần tử",
     B: "2 phần tử",
     C: "3 phần tử",
@@ -1183,16 +1183,16 @@ const mediumFloat = [
     A: "Số đối của 5 là 5",
     B: "Số đối của -5 là -5",
     C: "Số đối của 0 là 0",
-    D: "Số đối của   là 3",
+    D: "Số đối của |-3| là 3",
     answer: 3,
   },
   {
     question:
-      "Nhiệt độ hiện tại của phòng đông lạnh là -2°C. Nếu nhiệt độ giảm 7°C, nhiệt độ tại phòng đông lạnh sẽ là bao nhiêu?",
-    A: "5°C",
-    B: "-9°C",
-    C: "-5°C",
-    D: "9°C",
+      "Nhiệt độ hiện tại của phòng đông lạnh là -2<sup>o</sup>C. Nếu nhiệt độ giảm 7<sup>o</sup>C, nhiệt độ tại phòng đông lạnh sẽ là bao nhiêu?",
+    A: "5<sup>o</sup>C",
+    B: "-9<sup>o</sup>C",
+    C: "-5<sup>o</sup>C",
+    D: "9<sup>o</sup>C",
     answer: 2,
   },
   {
@@ -1236,7 +1236,7 @@ const mediumFloat = [
     answer: 4,
   },
   {
-    question: "Tính giá trị của biểu thức x + (-16) , biết x = -27:",
+    question: "Tính giá trị của biểu thức x + (-16), biết x = -27:",
     A: "-43",
     B: "-11",
     C: "11",
@@ -1278,11 +1278,11 @@ const mediumFloat = [
   },
   {
     question:
-      "Một phòng đông lạnh có nhiệt độ là 5°C . Nhiệt độ của phòng đông lạnh là bao nhiêu nếu nhiệt độ giảm 7°C ?",
-    A: "12°C",
-    B: "2°C",
-    C: "-2°C",
-    D: "-12°C",
+      "Một phòng đông lạnh có nhiệt độ là 5°C. Nhiệt độ của phòng đông lạnh là bao nhiêu nếu nhiệt độ giảm 7<sup>o</sup>C ?",
+    A: "12<sup>o</sup>C",
+    B: "2<sup>o</sup>C",
+    C: "-2<sup>o</sup>C",
+    D: "-12<sup>o</sup>C",
     answer: 3,
   },
   {
@@ -1302,7 +1302,7 @@ const mediumFloat = [
     answer: 4,
   },
   {
-    question: "Tổng a -(b -c -d) bằng:",
+    question: "Tổng a -(b - c -d) bằng:",
     A: "a -b -c -d",
     B: "a + b -c -d",
     C: "a -b + c + d",
@@ -1310,7 +1310,7 @@ const mediumFloat = [
     answer: 3,
   },
   {
-    question: "Tổng (-43567 -123) + 43567 bằng:",
+    question: "Tổng (-43567 - 123) + 43567 bằng:",
     A: "-123",
     B: "-124",
     C: "-125",
@@ -1351,7 +1351,7 @@ const mediumFloat = [
   },
   {
     question:
-      "So sánh kết quả hai biểu thức sau: A = -(12 -25) và B = (-12 + 25)",
+      "So sánh kết quả hai biểu thức sau: A = -(12 - 25) và B = (-12 + 25)",
     A: "A > B",
     B: "A < B",
     C: "A = B",
@@ -1400,7 +1400,7 @@ const mediumFloat = [
     answer: 1,
   },
   {
-    question: "Tìm số nguyên x biết rằng (-14) -x + (-15) = -10",
+    question: "Tìm số nguyên x biết rằng (-14) - x + (-15) = -10",
     A: "x = 12",
     B: "x = -25",
     C: "x = -19",
@@ -1416,7 +1416,7 @@ const mediumFloat = [
     answer: 3,
   },
   {
-    question: "Tính (36 -16) . (-5) + 6 . (-14 -6), ta được:",
+    question: "Tính (36 - 16) . (-5) + 6 . (-14 - 6), ta được:",
     A: "-220",
     B: "-20",
     C: "20",
@@ -1424,7 +1424,7 @@ const mediumFloat = [
     answer: 1,
   },
   {
-    question: "Giá trị của biểu thức (x -2)(x -3) tại x = -1 là:",
+    question: "Giá trị của biểu thức (x - 2)(x - 3) tại x = -1 là:",
     A: "-12",
     B: "12",
     C: "-2",
@@ -1441,7 +1441,7 @@ const mediumFloat = [
   },
   {
     question:
-      "Khi x = -12, giá trị của biểu thức (x -8).(x + 7) là số nào trong bốn số sau:",
+      "Khi x = -12, giá trị của biểu thức (x - 8).(x + 7) là số nào trong bốn số sau:",
     A: "-100",
     B: "100",
     C: "-96",
@@ -1449,7 +1449,7 @@ const mediumFloat = [
     answer: 2,
   },
   {
-    question: "Giá trị của biểu thức (27 -32) . x khi x = 8 là:",
+    question: "Giá trị của biểu thức (27 - 32) . x khi x = 8 là:",
     A: "-40",
     B: "-39",
     C: "-38",
@@ -1457,7 +1457,7 @@ const mediumFloat = [
     answer: 1,
   },
   {
-    question: "Tính giá trị của biểu thức P = (x -3). 3 -20.x khi x = 5",
+    question: "Tính giá trị của biểu thức P = (x - 3). 3 - 20.x khi x = 5",
     A: "-94",
     B: "100",
     C: "-96",
@@ -1481,7 +1481,7 @@ const mediumFloat = [
     answer: 2,
   },
   {
-    question: "Cho tập hợp B = {x  | 6 ⋮ x}. Tập hợp B có bao nhiêu phần tử?",
+    question: "Cho tập hợp B = {x|6 ⋮ x}. Tập hợp B có bao nhiêu phần tử?",
     A: "5",
     B: "8",
     C: "10",
@@ -1489,7 +1489,7 @@ const mediumFloat = [
     answer: 2,
   },
   {
-    question: "Kết quả của phép tính 23 -17 là:",
+    question: "Kết quả của phép tính 23 - 17 là:",
     A: "-40",
     B: "-6",
     C: "40",
@@ -1513,7 +1513,7 @@ const mediumFloat = [
     answer: 1,
   },
   {
-    question: "Số nguyên x thỏa mãn x -(15 -x) = x + 16 là:",
+    question: "Số nguyên x thỏa mãn x -(15 - x) = x + 16 là:",
     A: "1",
     B: "31",
     C: "16",
@@ -1529,7 +1529,7 @@ const mediumFloat = [
     answer: 1,
   },
   {
-    question: "Số nguyên x nào dưới đây thỏa mãn x -8 = 20.",
+    question: "Số nguyên x nào dưới đây thỏa mãn x - 8 = 20.",
     A: "x = 12",
     B: "x = 28",
     C: "x = 160",
@@ -1562,7 +1562,7 @@ const mediumFloat = [
     answer: 3,
   },
   {
-    question: "Sau khi phá ngoặc phép tính 4 -(12 -15) ta được",
+    question: "Sau khi phá ngoặc phép tính 4 -(12 - 15) ta được",
     A: "4 -12 -15",
     B: "4 -12 + 15",
     C: "4 + 12 -15",
@@ -1570,7 +1570,7 @@ const mediumFloat = [
     answer: 2,
   },
   {
-    question: "Tính (9-21) -(-91+10) ta được:",
+    question: "Tính (9-21) - (-91+10) ta được:",
     A: "65",
     B: "-72",
     C: "69",
@@ -1578,7 +1578,7 @@ const mediumFloat = [
     answer: 3,
   },
   {
-    question: "Tìm số nguyên y biết: y -345 -69 = -12",
+    question: "Tìm số nguyên y biết: y - 345 - 69 = -12",
     A: "y = 302",
     B: "y = 402",
     C: "y = 203",
@@ -1586,7 +1586,7 @@ const mediumFloat = [
     answer: 2,
   },
   {
-    question: "Tính (55+23) -(-45 -77) ta được:",
+    question: "Tính (55+23) - (-45 - 77) ta được:",
     A: "-100",
     B: "64",
     C: "-52",
@@ -1716,7 +1716,7 @@ const hardFloat = [
   },
   {
     question:
-      "Hãy sắp xếp các số sau theo thứ tự tăng dần: -3; +4; 7; -7;0; -1",
+      "Hãy sắp xếp các số sau theo thứ tự tăng dần: -3; +4; 7; -7; 0; -1",
     A: "-7; -3; -1; 0; +4; 7",
     B: "7; +4; 0; -1; -3; -7",
     C: "7; -7; +4; -3; -1; 0",
@@ -1733,7 +1733,7 @@ const hardFloat = [
     answer: 2,
   },
   {
-    question: "Có bao nhiêu số nguyên nằm giữa - 4 và 5 là",
+    question: "Có bao nhiêu số nguyên nằm giữa -4 và 5 là",
     A: "6",
     B: "5",
     C: "8",
@@ -1766,7 +1766,7 @@ const hardFloat = [
     answer: 2,
   },
   {
-    question: "Tổng tất cả các số nguyên n thoả mãn -2 < n   2 là:",
+    question: "Tổng tất cả các số nguyên n thoả mãn -2 < n ≤ 2 là:",
     A: "0",
     B: "2",
     C: "-2",
@@ -1808,7 +1808,7 @@ const hardFloat = [
     answer: 4,
   },
   {
-    question: "Số các phần tử của tập hợp A = { -999; -998; …; 1; 2; 3} là:",
+    question: "Số các phần tử của tập hợp A = {-999; -998; …; 1; 2; 3} là:",
     A: "1001 phần tử",
     B: "999 phần tử",
     C: "1002 phần tử",
@@ -1859,15 +1859,15 @@ const hardFloat = [
   },
   {
     question:
-      "Sử dụng số nguyên âm để diễn tả nhiệt độ Mùa đông ở Moscow có nhiệt độ trung bình tháng 12 là 50⁰C dưới 0⁰C.",
-    A: "50⁰C",
-    B: "-50⁰C",
-    C: "12⁰C",
-    D: "-12⁰C",
+      "Sử dụng số nguyên âm để diễn tả nhiệt độ Mùa đông ở Moscow có nhiệt độ trung bình tháng 12 là 50<sup>o</sup>C dưới 0<sup>o</sup>C.",
+    A: "50<sup>o</sup>C",
+    B: "-50<sup>o</sup>C",
+    C: "12<sup>o</sup>C",
+    D: "-12<sup>o</sup>C",
     answer: 2,
   },
   {
-    question: "Biết - 9 < x < 0. Tập hợp các số nguyên x thỏa mãn:",
+    question: "Biết -9 < x < 0. Tập hợp các số nguyên x thỏa mãn:",
     A: "A = {-8; -7; -6; -5; -4; -3; -2; -1}",
     B: "A = {-9; -8; -7; -6; -5; -4; -3; -2; -1}",
     C: "A = {-9; -8; -7; -6; -5; -4; -3; -2; -1; 0}",
@@ -1927,7 +1927,7 @@ const hardFloat = [
     answer: 4,
   },
   {
-    question: "Tìm số nguyên x, biết:   là số nguyên âm lớn nhất",
+    question: "Tìm số nguyên x, biết: 9 - x là số nguyên âm lớn nhất",
     A: "109",
     B: "10",
     C: "100",
@@ -1935,7 +1935,7 @@ const hardFloat = [
     answer: 2,
   },
   {
-    question: "Tìm số nguyên x, biết: là số nguyên âm nhỏ nhất có hai chữ số.",
+    question: "Tìm số nguyên x, biết: x + 3 là số nguyên âm nhỏ nhất có hai chữ số.",
     A: "-102",
     B: "102",
     C: "100",
@@ -1943,7 +1943,7 @@ const hardFloat = [
     answer: 1,
   },
   {
-    question: "Tìm giá trị nhỏ nhất của biểu thức:  ",
+    question: "Tìm giá trị nhỏ nhất của biểu thức: |x + 5| - 3",
     A: "2",
     B: "3",
     C: "-3",
@@ -1968,7 +1968,7 @@ const hardFloat = [
     answer: 3,
   },
   {
-    question: "Tổng các số nguyên x mà  là:",
+    question: "Tổng các số nguyên x mà -3 < x ≤ 3 là:",
     A: "0",
     B: "-3",
     C: "3",
@@ -2019,7 +2019,7 @@ const hardFloat = [
     answer: 4,
   },
   {
-    question: "  thì x bằng:",
+    question: "|x| = -7 thì x bằng:",
     A: "x không có giá trị nào",
     B: "0",
     C: "7",
@@ -2027,7 +2027,7 @@ const hardFloat = [
     answer: 1,
   },
   {
-    question: " thì x bằng",
+    question: "|x| = 0 thì x bằng",
     A: "x không có giá trị nào",
     B: "-10",
     C: "10",
@@ -2078,7 +2078,7 @@ const hardFloat = [
     answer: 1,
   },
   {
-    question: "Tìm tổng tất cả các số nguyên x, biết: - 4 < x < 5 ?",
+    question: "Tìm tổng tất cả các số nguyên x, biết: -4 < x < 5 ?",
     A: "1",
     B: "5",
     C: "4",
@@ -2086,8 +2086,8 @@ const hardFloat = [
     answer: 3,
   },
   {
-    question: "Tìm x ∈ Z, biết: x + (- 27) = (- 100) + 73",
-    A: "x = - 1",
+    question: "Tìm x ∈ Z, biết: x + (-27) = (-100) + 73",
+    A: "x = -1",
     B: "x = 0",
     C: "x = 1",
     D: "x = 2",
@@ -2102,7 +2102,7 @@ const hardFloat = [
     answer: 3,
   },
   {
-    question: "-176 -13.4 + 125 : 5 là",
+    question: "-176 - 13.4 + 125 : 5 là",
     A: "-228",
     B: "-203",
     C: "203",
@@ -2110,7 +2110,7 @@ const hardFloat = [
     answer: 2,
   },
   {
-    question: "Tính tổng của tất cả các số nguyên x thỏa mãn -100  < x < 100",
+    question: "Tính tổng của tất cả các số nguyên x thỏa mãn -100 < x < 100",
     A: "100",
     B: "0",
     C: "99",
@@ -2118,7 +2118,7 @@ const hardFloat = [
     answer: 2,
   },
   {
-    question: "Tính tổng của tất cả các số nguyên x thỏa mãn -99  < x < 100",
+    question: "Tính tổng của tất cả các số nguyên x thỏa mãn -99 < x < 100",
     A: "100",
     B: "0",
     C: "-99",
@@ -2136,9 +2136,9 @@ const hardFloat = [
   {
     question: "Biểu thức a - (b + c - d) + (-d) - a khi bỏ ngoặc là:",
     A: "-b - c",
-    B: "-b -c - d",
+    B: "-b - c - d",
     C: "-b - c + 2d",
-    D: "-b - c -2d",
+    D: "-b - c - 2d",
     answer: 1,
   },
   {
@@ -2150,7 +2150,7 @@ const hardFloat = [
     answer: 3,
   },
   {
-    question: "Tính hợp lý (- 1 215) - (- 215 + 115) - (- 1 115) ta được:",
+    question: "Tính hợp lý (-1215) - (-215 + 115) - (-1115) ta được:",
     A: "- 2 000",
     B: "2 000",
     C: "0",
@@ -2183,7 +2183,7 @@ const hardFloat = [
     answer: 1,
   },
   {
-    question: "Bỏ dấu ngoặc rồi tính: (77 + 22 - 65) -(67 + 12 -75)",
+    question: "Bỏ dấu ngoặc rồi tính: (77 + 22 - 65) - (67 + 12 -75)",
     A: "10",
     B: "20",
     C: "30",
@@ -2191,15 +2191,15 @@ const hardFloat = [
     answer: 3,
   },
   {
-    question: "Điền hai số tiếp theo vào dãy số sau: - 2; 4; - 8; 16; ...",
+    question: "Điền hai số tiếp theo vào dãy số sau: -2; 4; -8; 16; ...",
     A: "32 và 64",
-    B: "- 32 và 64",
-    C: "32 và - 64",
-    D: "- 32 và - 64",
+    B: "-32 và 64",
+    C: "32 và -64",
+    D: "-32 và -64",
     answer: 2,
   },
   {
-    question: "Giá trị của biểu thức Q = (-5)5. (-23)2 . 0. (2020)2020 là:",
+    question: "Giá trị của biểu thức Q = (-5)<sup>5</sup>.(-23)<sup>2</sup>.0.(2020)<sup>2020</sup> là:",
     A: "-34792",
     B: "1",
     C: "0",
@@ -2207,7 +2207,7 @@ const hardFloat = [
     answer: 3,
   },
   {
-    question: "Giá trị của biểu thức (- 63) . (1 - 299) - 299 . 63 là:",
+    question: "Giá trị của biểu thức (-63) . (1 - 299) - 299 . 63 là:",
     A: "- 63",
     B: "63",
     C: "- 53",
@@ -2215,7 +2215,7 @@ const hardFloat = [
     answer: 1,
   },
   {
-    question: "Giá trị của m . n2 với m = 3, n = - 5 là:",
+    question: "Giá trị của m . n<sup>2</sup> với m = 3, n = -5 là:",
     A: "- 30",
     B: "30",
     C: "- 75",
@@ -2223,15 +2223,15 @@ const hardFloat = [
     answer: 4,
   },
   {
-    question: "Giá trị biểu thức M = (- 192 873) . (- 2 345) . (- 4)5 . 0 là:",
-    A: "- 192 873",
+    question: "Giá trị biểu thức M = (-192 873).(-2 345).(-4)<sup>5</sup>.0 là:",
+    A: "-192 873",
     B: "1",
     C: "0",
-    D: "(- 192 873) . (- 2 345) . (- 4)5",
+    D: "(-192 873).(-2 345).(-4)<sup>5</sup>",
     answer: 3,
   },
   {
-    question: "Giá trị của x thỏa mãn - 2(x - 5) < 0 là:",
+    question: "Giá trị của x thỏa mãn -2(x - 5) < 0 là:",
     A: "x = 3",
     B: "x = 4",
     C: "x = 5",
@@ -2247,7 +2247,7 @@ const hardFloat = [
     answer: 1,
   },
   {
-    question: "Tính hợp lý: A = -43 . 18 - 82 . 43 - 43 . 100",
+    question: "Tính hợp lý: A = -43.18 - 82.43 - 43.100",
     A: "0",
     B: "-86000",
     C: "-8600",
@@ -2255,7 +2255,7 @@ const hardFloat = [
     answer: 3,
   },
   {
-    question: "Tính hợp lý: B = -55. 78 + 13. (-78) - 78. (-65)",
+    question: "Tính hợp lý: B = -55.78 + 13.(-78) - 78.(-65)",
     A: "1",
     B: "234",
     C: "-234",
@@ -2263,15 +2263,15 @@ const hardFloat = [
     answer: 3,
   },
   {
-    question: "Tìm x, biết: (x - 12). (8 + x) = 0",
+    question: "Tìm x, biết: (x - 12).(8 + x) = 0",
     A: "x = 12",
     B: "x = 8",
-    C: "x = 12 hoặc x =  -8",
+    C: "x = 12 hoặc x = -8",
     D: "x = 0 hoặc x = 12",
     answer: 3,
   },
   {
-    question: "Thực hiện phép tính: (-8). (-8). (-8). (-8) - 84 + 105",
+    question: "Thực hiện phép tính: (-8).(-8).(-8).(-8) - 84 + 105",
     A: "2. 84",
     B: "84 + 10",
     C: "0",
@@ -2279,7 +2279,7 @@ const hardFloat = [
     answer: 4,
   },
   {
-    question: "Tìm số nguyên x thỏa mãn: (x - 6). (x - 3) = 0",
+    question: "Tìm số nguyên x thỏa mãn: (x - 6).(x - 3) = 0",
     A: "x = 6",
     B: "x = 3",
     C: "x = -6, x = -3",
@@ -2288,7 +2288,7 @@ const hardFloat = [
   },
   {
     question:
-      "So sánh hai phép tính sau: A = (-3). (-5). (-7). (-9). (-11) và B = (-9). (-11)",
+      "So sánh hai phép tính sau: A = (-3).(-5).(-7).(-9).(-11) và B = (-9).(-11)",
     A: "A ≥ B",
     B: "A = B",
     C: "A < B",
@@ -2296,7 +2296,7 @@ const hardFloat = [
     answer: 3,
   },
   {
-    question: "Tìm số nguyên x, y biết: (x -25). (y + 5) = 0",
+    question: "Tìm số nguyên x, y biết: (x -25).(y + 5) = 0",
     A: "x = 25 và y = -5",
     B: "x = 25 và y ∈ Z",
     C: "x ∈ Z và y = -5",
@@ -2305,15 +2305,15 @@ const hardFloat = [
   },
   {
     question:
-      "Tính giá trị của biểu thức x -2 + x -2 + x -2 + x -2 + x -2 tại x = -7",
-    A: "- 30",
+      "Tính giá trị của biểu thức x - 2 + x - 2 + x - 2 + x - 2 + x - 2 tại x = -7",
+    A: "-30",
     B: "30",
-    C: "- 45",
+    C: "-45",
     D: "45",
     answer: 3,
   },
   {
-    question: "Có bao nhiêu giá trị x thỏa mãn (x -6). (x2 + 2) = 0",
+    question: "Có bao nhiêu giá trị x thỏa mãn (x - 6).(x<sup>2</sup> + 2) = 0",
     A: "0",
     B: "2",
     C: "3",
@@ -2321,7 +2321,7 @@ const hardFloat = [
     answer: 4,
   },
   {
-    question: "Tìm x ∈ Z biết (2x -3)2 = 25",
+    question: "Tìm x ∈ Z biết (2x -3)<sup>2</sup> = 25",
     A: "x = -4 hoặc x = -1",
     B: "x = -4",
     C: "x = -1",
@@ -2331,9 +2331,9 @@ const hardFloat = [
   {
     question: "Tìm số nguyên x biết 34 - (25 + 34) = x - (25 - 9)",
     A: "10",
-    B: "- 10",
+    B: "-10",
     C: "9",
-    D: "- 9",
+    D: "-9",
     answer: 4,
   },
   {
@@ -2341,15 +2341,15 @@ const hardFloat = [
     A: "x",
     B: "x - 1",
     C: "1 - x",
-    D: "- x",
+    D: "-x",
     answer: 3,
   },
   {
-    question: "A = 56 + 27 -11 -28 + 84 bằng với biểu thức nào dưới đây?",
-    A: "56 + 27 -(11 -28 + 84)",
-    B: "(56 -27) -(11 -28 + 84)",
-    C: "(56 + 27) -(11 + 28 -84)",
-    D: "(56 -27) -(11 + 28 -84)",
+    question: "A = 56 + 27 - 11 - 28 + 84 bằng với biểu thức nào dưới đây?",
+    A: "56 + 27 - (11 -28 + 84)",
+    B: "(56 -27) - (11 -28 + 84)",
+    C: "(56 + 27) - (11 + 28 -84)",
+    D: "(56 -27) - (11 + 28 -84)",
     answer: 3,
   },
   {
@@ -2363,10 +2363,10 @@ const hardFloat = [
   },
   {
     question: "Tính giá trị biểu thức: (-314) - (75 + x) nếu x = 25",
-    A: "- 214",
-    B: "- 414",
-    C: "- 314",
-    D: "- 404",
+    A: "-214",
+    B: "-414",
+    C: "-314",
+    D: "-404",
     answer: 2,
   },
   {
@@ -2378,7 +2378,7 @@ const hardFloat = [
     answer: 3,
   },
   {
-    question: "Tính nhanh tổng sau: (-2002) -(57 -2002)",
+    question: "Tính nhanh tổng sau: (-2002) - (57 - 2002)",
     A: "47",
     B: "-57",
     C: "57",
@@ -2386,7 +2386,7 @@ const hardFloat = [
     answer: 2,
   },
   {
-    question: "Giá trị của biểu thức -(76 + 139) -(24 -39) là:",
+    question: "Giá trị của biểu thức -(76 + 139) - (24 - 39) là:",
     A: "63",
     B: "145",
     C: "-200",
@@ -2411,7 +2411,7 @@ const hardFloat = [
     answer: 1,
   },
   {
-    question: "Tìm số nguyên x biết:  - (35 - x) - (37 - x) = 33 - x",
+    question: "Tìm số nguyên x biết: -(35 - x) - (37 - x) = 33 - x",
     A: "x = -35",
     B: "x = 35",
     C: "x = 105",
@@ -2437,7 +2437,7 @@ const hardFloat = [
     answer: 2,
   },
   {
-    question: "a là số nguyên âm. a2022 là số",
+    question: "a là số nguyên âm. a<sup>2022</sup> là số",
     A: "Số nguyên âm",
     B: "Số nguyên dương",
     C: "0",
@@ -2445,7 +2445,7 @@ const hardFloat = [
     answer: 2,
   },
   {
-    question: "a là số nguyên âm. a2023 là số",
+    question: "a là số nguyên âm. a<sup>2023</sup> là số",
     A: "Số nguyên âm",
     B: "Số nguyên dương",
     C: "0",
@@ -2633,7 +2633,7 @@ const easyInt = [
     answer: 1,
   },
   {
-    question: "Kết quả của phép nhân hai số tự nhiên được gọi là",
+    question: "Kết quả của phép nhân hai số tự nhiên được gọi là:",
     A: "Tổng",
     B: "Hiệu",
     C: "Tích",
@@ -2653,8 +2653,8 @@ const easyInt = [
     question: "Phát biểu nào sau đây là sai?",
     A: "a.1 = 1.a = a",
     B: "a.0 = 0.a = a",
-    C: "(ab) c = a (bc) = abc",
-    D: "a (b + c) = ab + ac",
+    C: "(ab)c = a(bc) = abc",
+    D: "a(b + c) = ab + ac",
     answer: 2,
   },
   {
@@ -2691,7 +2691,7 @@ const easyInt = [
   },
   {
     question:
-      "Khi nhân hai lũy thừa cùng cơ số: a<sup>m</sup>. a<sup>n</sup>, kết quả là:",
+      "Khi nhân hai lũy thừa cùng cơ số: a<sup>m</sup>.a<sup>n</sup>, kết quả là:",
     A: "a<sup>m.n</sup>",
     B: "a<sup>m+n</sup>",
     C: "a<sup>m-n</sup>",
@@ -2922,7 +2922,7 @@ const mediumInt = [
     answer: 4,
   },
   {
-    question: "Biết (40 + ?). 6 = 40 . 6 + 5. 6. Điền số vào dấu ?",
+    question: "Biết (40 + ?) . 6 = 40 . 6 + 5 . 6. Điền số vào dấu ?",
     A: "5",
     B: "4",
     C: "3",
@@ -2938,11 +2938,11 @@ const mediumInt = [
     answer: 4,
   },
   {
-    question: "So sánh hai phép tính a (b + c) và ab + ac",
-    A: "a (b + c) = ab + ac",
-    B: "a (b + c) ≠ ab + ac",
-    C: "a (b + c) ≤ ab + ac",
-    D: "a (b + c) > ab + ac",
+    question: "So sánh hai phép tính a(b + c) và ab + ac",
+    A: "a(b + c) = ab + ac",
+    B: "a(b + c) ≠ ab + ac",
+    C: "a(b + c) ≤ ab + ac",
+    D: "a(b + c) > ab + ac",
     answer: 1,
   },
   {
@@ -2963,7 +2963,7 @@ const mediumInt = [
     answer: 2,
   },
   {
-    question: "Nếu a. b = 0 thì",
+    question: "Nếu a.b = 0 thì",
     A: "a = 0",
     B: "b = 0",
     C: "a = 0 hoặc b = 0",
@@ -2979,28 +2979,28 @@ const mediumInt = [
     answer: 3,
   },
   {
-    question: "So sánh 12<sup>5</sup>: 12<sup>4</sup> và 12",
-    A: "12<sup>5</sup>: 12<sup>4</sup> = 12",
-    B: "12<sup>5</sup>: 12<sup>4</sup> > 12",
-    C: "12<sup>5</sup>: 12<sup>4</sup> < 12",
-    D: "12<sup>5</sup>: 12<sup>4</sup> ≠ 12",
+    question: "So sánh 12<sup>5</sup> : 12<sup>4</sup> và 12",
+    A: "12<sup>5</sup>:12<sup>4</sup> = 12",
+    B: "12<sup>5</sup>:12<sup>4</sup> > 12",
+    C: "12<sup>5</sup>:12<sup>4</sup> < 12",
+    D: "12<sup>5</sup>:12<sup>4</sup> ≠ 12",
     answer: 1,
   },
   {
     question:
-      "So sánh 2 021<sup>6</sup>. 2 021<sup>3</sup> và 2 021<sup>9</sup>",
-    A: "2 021<sup>6</sup>. 2 021<sup>3</sup> = 2 021<sup>9</sup>",
-    B: "2 021<sup>6</sup>. 2 021<sup>3</sup> ≠ 2 021<sup>9</sup>",
-    C: "2 021<sup>6</sup>. 2 021<sup>3</sup> > 2 021<sup>9</sup>",
-    D: "2 021<sup>6</sup>. 2 021<sup>3</sup> < 2 021<sup>9</sup>",
+      "So sánh 2 021<sup>6</sup>.2 021<sup>3</sup> và 2 021<sup>9</sup>",
+    A: "2 021<sup>6</sup>.2 021<sup>3</sup> = 2 021<sup>9</sup>",
+    B: "2 021<sup>6</sup>.2 021<sup>3</sup> ≠ 2 021<sup>9</sup>",
+    C: "2 021<sup>6</sup>.2 021<sup>3</sup> > 2 021<sup>9</sup>",
+    D: "2 021<sup>6</sup>.2 021<sup>3</sup> < 2 021<sup>9</sup>",
     answer: 1,
   },
   {
     question: "Chọn câu sai",
-    A: "a<sup>m</sup>. a<sup>n</sup> = a<sup>m+n</sup>",
+    A: "a<sup>m</sup>.a<sup>n</sup> = a<sup>m+n</sup>",
     B: "a<sup>1</sup> = a",
     C: "a<sup>0</sup> = 0",
-    D: "a<sup>m</sup>: a<sup>n</sup> = a<sup>m-n</sup>(a ≠ 0; m ≥ n)",
+    D: "a<sup>m</sup>:a<sup>n</sup> = a<sup>m-n</sup>(a ≠ 0; m ≥ n)",
     answer: 3,
   },
   {
@@ -3021,7 +3021,7 @@ const mediumInt = [
   },
   {
     question:
-      "Viết 18<sup>10</sup> : 9<sup>0</sup> dưới dạng một lũy thừa ta được:",
+      "Viết 18<sup>10</sup>:9<sup>0</sup> dưới dạng một lũy thừa ta được:",
     A: "18<sup>10</sup>",
     B: "9<sup>10</sup>",
     C: "3",
@@ -3030,18 +3030,18 @@ const mediumInt = [
   },
   {
     question: "Chọn câu đúng.",
-    A: "a<sup>m</sup> . a<sup>n</sup> = a<sup>m+n</sup>",
+    A: "a<sup>m</sup>.a<sup>n</sup> = a<sup>m+n</sup>",
     B: "a . a . a . a . a = 5a",
-    C: "a<sup>m</sup> . a<sup>n</sup> = a<sup>m.n</sup>",
+    C: "a<sup>m</sup>.a<sup>n</sup> = a<sup>m.n</sup>",
     D: "a1 = 1",
     answer: 1,
   },
   {
     question: "Viết gọn tích sau dưới dạng lũy thừa: a.a.a.b.b.b.b.b",
     A: "a<sup>3</sup>.b<sup>4</sup>",
-    B: "a<sup>2</sup>. b<sup>3</sup>",
-    C: "a<sup>4</sup> . b<sup>3</sup>",
-    D: "a<sup>3</sup> . b<sup>5</sup>",
+    B: "a<sup>2</sup>.b<sup>3</sup>",
+    C: "a<sup>4</sup>.b<sup>3</sup>",
+    D: "a<sup>3</sup>.b<sup>5</sup>",
     answer: 4,
   },
   {
@@ -3117,7 +3117,7 @@ const mediumInt = [
     answer: 3,
   },
   {
-    question: "Kết quả của phép tính 547. 63 + 547 . 37 là:",
+    question: "Kết quả của phép tính 547 . 63 + 547 . 37 là:",
     A: "54 700",
     B: "5470",
     C: "45 700",
@@ -3133,7 +3133,7 @@ const mediumInt = [
     answer: 4,
   },
   {
-    question: "Thực hiện phép tính 129.89 + 129.11",
+    question: "Thực hiện phép tính 129 . 89 + 129 . 11",
     A: "12 900",
     B: "1 290",
     C: "11 610",
@@ -3149,16 +3149,16 @@ const mediumInt = [
     answer: 1,
   },
   {
-    question: "Viết gọn tích sau bằng cách dùng lũy thừa: 5. 25. 7. 7",
-    A: "7<sup>3</sup>. 5<sup>2</sup>",
-    B: "5<sup>3</sup>. 7<sup>2</sup>",
-    C: "5. 5. 5. 7. 7",
-    D: "5. 5<sup>2</sup>. 7<sup>3</sup>",
+    question: "Viết gọn tích sau bằng cách dùng lũy thừa: 5 . 25 . 7 . 7",
+    A: "7<sup>3</sup>.5<sup>2</sup>",
+    B: "5<sup>3</sup>.7<sup>2</sup>",
+    C: "5 . 5 . 5 . 7 . 7",
+    D: "5 . 5<sup>2</sup>.7<sup>3</sup>",
     answer: 2,
   },
   {
     question:
-      "Kết quả của phép tính: 24<sup>19</sup>. 24<sup>2</sup>: 24<sup>21</sup>",
+      "Kết quả của phép tính: 24<sup>19</sup>.24<sup>2</sup>:24<sup>21</sup>",
     A: "24",
     B: "24",
     C: "24<sup>2</sup>",
@@ -3175,7 +3175,7 @@ const mediumInt = [
   },
   {
     question:
-      "Tìm x biết 1 999<sup>6</sup>. 1 999<sup>x</sup> = 1 999<sup>20</sup>",
+      "Tìm x biết 1 999<sup>6</sup>.1 999<sup>x</sup> = 1 999<sup>20</sup>",
     A: "x = 14",
     B: "x = 13",
     C: "x = 26",
@@ -3192,8 +3192,8 @@ const mediumInt = [
   },
   {
     question: "Chọn câu sai:",
-    A: "5<sup>2</sup> . 5<sup>7</sup> . 5<sup>3</sup> = 5<sup>12</sup>",
-    B: "7<sup>12</sup> : 7<sup>8</sup> = 7<sup>4</sup>",
+    A: "5<sup>2</sup>.5<sup>7</sup>.5<sup>3</sup> = 5<sup>12</sup>",
+    B: "7<sup>12</sup>:7<sup>8</sup> = 7<sup>4</sup>",
     C: "2021<sup>0</sup> = 0",
     D: "2021<sup>1</sup> = 2021",
     answer: 3,
@@ -3216,15 +3216,15 @@ const mediumInt = [
   },
   {
     question: "Chọn kết luận đúng trong các kết luận sau:",
-    A: "3<sup>3</sup> . 3<sup>4</sup> = 3<sup>12</sup>",
+    A: "3<sup>3</sup>.3<sup>4</sup> = 3<sup>12</sup>",
     B: "3<sup>0</sup> = 0",
-    C: "4<sup>2</sup> : 2<sup>3</sup> = 2",
-    D: "5<sup>5</sup> : 5 = 1<sup>4</sup>",
+    C: "4<sup>2</sup>:2<sup>3</sup> = 2",
+    D: "5<sup>5</sup>:5 = 1<sup>4</sup>",
     answer: 3,
   },
   {
     question:
-      "Viết kết quả phép tính 12<sup>2</sup> . 2 . 12<sup>5</sup> . 6 dưới dạng một lũy thừa, ta được:",
+      "Viết kết quả phép tính 12<sup>2</sup>.2.12<sup>5</sup>.6 dưới dạng một lũy thừa, ta được:",
     A: "12<sup>9</sup>",
     B: "12<sup>8</sup>",
     C: "12<sup>7</sup>",
@@ -3251,7 +3251,7 @@ const mediumInt = [
   },
   {
     question:
-      "Tìm số tự nhiên n thỏa mãn 4<sup>n</sup> = 4<sup>3</sup> . 4<sup>5</sup>",
+      "Tìm số tự nhiên n thỏa mãn 4<sup>n</sup> = 4<sup>3</sup>.4<sup>5</sup>",
     A: "n = 32",
     B: "n = 16",
     C: "n = 8",
@@ -3260,9 +3260,9 @@ const mediumInt = [
   },
   {
     question:
-      "Số tự nhiên x nào dưới đây thỏa mãn 12<sup>x</sup> = 12<sup>7</sup> : 12<sup>4</sup>",
+      "Số tự nhiên x nào dưới đây thỏa mãn 12<sup>x</sup> = 12<sup>7</sup>:12<sup>4</sup>",
     A: "x = 6",
-    B: "x =  4",
+    B: "x = 4",
     C: "x = 11",
     D: "x = 3",
     answer: 4,
@@ -3316,7 +3316,7 @@ const hardInt = [
   },
   {
     question:
-      "Cho C = {x| x là số tự nhiên chia cho 3 dư 1, 3 < x< 18}. Viết tập hợp C.",
+      "Cho C = {x| x là số tự nhiên chia cho 3 dư 1, 3<x<18}. Viết tập hợp C.",
     A: "C = {6; 9; 12; 15}",
     B: "C = (4, 7, 10, 13, 16)",
     C: "C = {4; 7; 10; 13; 16}",
@@ -3351,7 +3351,7 @@ const hardInt = [
   {
     question: "Viết B là tập hợp các chữ số xuất hiện trong số 303 530",
     A: "B = {3; 0; 3; 5; 3; 0}",
-    B: "B  ={3; 0; 5; 0}",
+    B: "B ={3; 0; 5; 0}",
     C: "B = {3; 0; 3; 5}",
     D: "B ={3; 0; 5}",
     answer: 4,
@@ -3368,20 +3368,11 @@ const hardInt = [
   {
     question:
       "Hãy viết tập hợp A = {16; 17; 18; 19} dưới dạng chỉ ra tính chất đặc trưng",
-    A: "A = {x ∈ N|15 < x < 19}",
-    B: "A = {x ∈ N|16 < x < 20}",
-    C: "A = {x ∈ N|15 < x < 20}",
-    D: "A = {x ∈ N|15 < x ≤ 20}",
+    A: "A = {x∈N|15<x<19}",
+    B: "A = {x∈N|16<x<20}",
+    C: "A = {x∈N|15<x<20}",
+    D: "A = {x∈N|15<x≤20}",
     answer: 3,
-  },
-  {
-    question:
-      "Liệt kê các phần tử của tập hợp A, biết A = { ab ∈ N | a + b = 5 và a, b ∈ N}",
-    A: "A = {14; 23; 32; 41}",
-    B: "A = {12; 23; 32; 41; 50}",
-    C: "A = {23; 32; 41; 50}",
-    D: "A = {14; 23; 32; 41; 50}",
-    answer: 4,
   },
   {
     question: "Viết tập hợp các chữ cái trong từ HAI PHONG",
@@ -3461,27 +3452,11 @@ const hardInt = [
     answer: 1,
   },
   {
-    question: "Nếu 1179 < 11x9< 1199 thì chữ số x là:",
-    A: "x = 3",
-    B: "x = 27",
-    C: "x = 8",
-    D: "x = 0",
-    answer: 3,
-  },
-  {
-    question: "Chữ số x là bao nhiêu để  x9x9< 1920?",
-    A: "0",
-    B: "1",
-    C: "2",
-    D: "3",
-    answer: 2,
-  },
-  {
     question:
       "Cho tập hợp B gồm 100 số tự nhiên đầu tiên. Khẳng định nào sau đây đúng?",
     A: "0 ∉ B",
-    B: "B = {x ∈ N | x ≤ 100}",
-    C: "B = { x ∈ N | x < 100}",
+    B: "B = {x∈N|x≤100}",
+    C: "B = {x∈N|x<100}",
     D: "100 ∈ B",
     answer: 3,
   },
@@ -3558,7 +3533,7 @@ const hardInt = [
   },
   {
     question:
-      "Liệt kê các phần tử của tập hợp E = { x| x là số tự nhiên, x : 15 = 0}",
+      "Liệt kê các phần tử của tập hợp E = {x|x là số tự nhiên, x:15=0}",
     A: "E = {0}",
     B: "Tập E rỗng",
     C: "E có vô số phần tử",
@@ -3601,7 +3576,7 @@ const hardInt = [
   },
   {
     question:
-      "Điền số vào dấu “…” để được các số tăng dần hơn kém nhau 3 đơn vị: 35,…,…",
+      "Điền số vào dấu “…” để được các số tăng dần hơn kém nhau 3 đơn vị: 35, …, …",
     A: "36, 37",
     B: "38, 41",
     C: "37, 40",
@@ -3626,11 +3601,11 @@ const hardInt = [
   },
   {
     question:
-      "Cho M={1;2;3}. Trong các tập hợp sau tập hợp nào là tập hợp con của M.",
-    A: "A={0;1}",
-    B: "B={0;2}",
-    C: "C={3;4}",
-    D: "D={1;3}",
+      "Cho M={1; 2; 3}. Trong các tập hợp sau tập hợp nào là tập hợp con của M.",
+    A: "A = {0; 1}",
+    B: "B = {0; 2}",
+    C: "C = {3; 4}",
+    D: "D = {1; 3}",
     answer: 4,
   },
   {
@@ -3651,7 +3626,7 @@ const hardInt = [
     answer: 3,
   },
   {
-    question: "Tổng các số tự nhiên x thỏa mãn 5≤x≤10  là:",
+    question: "Tổng các số tự nhiên x thỏa mãn 5 ≤ x ≤ 10  là:",
     A: "45",
     B: "15",
     C: "30",
@@ -3724,7 +3699,7 @@ const hardInt = [
     A: "a.10<sup>2</sup> + b.10<sup>1</sup> + c.10<sup>2</sup>",
     B: "a.10<sup>1</sup> + b.10<sup>2</sup> + c.10<sup>0</sup>",
     C: "a.10<sup>2</sup> + b.10<sup>1</sup> + c.10<sup>0</sup>",
-    D: "a.10<sup>2</sup>  + b.10<sup>0</sup> + c.10<sup>1</sup>",
+    D: "a.10<sup>2</sup> + b.10<sup>0</sup> + c.10<sup>1</sup>",
     answer: 3,
   },
   {
@@ -3763,7 +3738,7 @@ const hardInt = [
     answer: 4,
   },
   {
-    question: "Tính nhanh 125. 1975. 4. 8. 25",
+    question: "Tính nhanh 125.1975.4.8.25",
     A: "1 975 000 000",
     B: "1 975 000",
     C: "19 750 000",
@@ -3820,7 +3795,7 @@ const hardInt = [
     answer: 4,
   },
   {
-    question: "Tìm x thỏa mãn: (145.x - 435). (x - 57) = 0",
+    question: "Tìm x thỏa mãn: (145.x - 435).(x - 57) = 0",
     A: "x = 57",
     B: "x = 3",
     C: "Đáp án A và B",
@@ -3828,7 +3803,7 @@ const hardInt = [
     answer: 3,
   },
   {
-    question: "Tìm số tự nhiên x biết: 40. (70 - x) = 40",
+    question: "Tìm số tự nhiên x biết: 40.(70 - x) = 40",
     A: "x = 70",
     B: "x = 71",
     C: "x = 61",
@@ -3845,27 +3820,27 @@ const hardInt = [
   },
   {
     question: "Viết gọn tích sau bằng cách dùng lũy thừa: 1000. 10000. 100000",
-    A: "10<sup>3</sup>. 10<sup>4</sup>. 10<sup>5</sup>",
-    B: "1 000. 10<sup>9</sup>",
+    A: "10<sup>3</sup>.10<sup>4</sup>.10<sup>5</sup>",
+    B: "1 000.10<sup>9</sup>",
     C: "10<sup>3+4+5</sup>",
     D: "10<sup>12</sup>",
     answer: 4,
   },
   {
     question:
-      "Viết kết quả phép tính sau dưới dạng lũy thừa: 3<sup>3</sup>. 18 - 3<sup>3</sup>. 15",
+      "Viết kết quả phép tính sau dưới dạng lũy thừa: 3<sup>3</sup>.18 - 3<sup>3</sup>.15",
     A: "3<sup>4</sup>",
-    B: "3. 3<sup>3</sup>",
+    B: "3.3<sup>3</sup>",
     C: "81",
     D: "9. 9",
     answer: 1,
   },
   {
     question:
-      "Viết kết quả phép tính sau dưới dạng lũy thừa: 3<sup>6</sup>. 3<sup>2</sup> + 2. 81<sup>2</sup>",
-    A: "3. 3<sup>8</sup>",
+      "Viết kết quả phép tính sau dưới dạng lũy thừa: 3<sup>6</sup>.3<sup>2</sup> + 2.81<sup>2</sup>",
+    A: "3.3<sup>8</sup>",
     B: "3<sup>9</sup>",
-    C: "3<sup>8</sup> + 2. 3<sup>8</sup>",
+    C: "3<sup>8</sup> + 2.3<sup>8</sup>",
     D: "9<sup>3</sup>",
     answer: 2,
   },
@@ -3929,15 +3904,15 @@ const hardInt = [
   },
   {
     question: "Viết cấu tạo số 2 021 dưới dạng tổng các lũy thừa của 10 là:",
-    A: "2021 = 2. 10<sup>4</sup> + 2. 10<sup>2</sup> + 10<sup>4</sup>",
-    B: "2021 = 2. 10<sup>3</sup> + 2 . 10 + 10<sup>0</sup>",
-    C: "2021 = 2. 10<sup>4</sup> + 2 . 10<sup>2</sup> + 10",
-    D: "2021 = 2.10<sup>3</sup> + 2. 10<sup>2</sup> + 10<sup>0</sup>",
+    A: "2021 = 2.10<sup>4</sup> + 2.10<sup>2</sup> + 10<sup>4</sup>",
+    B: "2021 = 2.10<sup>3</sup> + 2.10 + 10<sup>0</sup>",
+    C: "2021 = 2.10<sup>4</sup> + 2.10<sup>2</sup> + 10",
+    D: "2021 = 2.10<sup>3</sup> + 2.10<sup>2</sup> + 10<sup>0</sup>",
     answer: 2,
   },
   {
     question:
-      "Viết kết quả phép tính 6<sup>3</sup> . 2 . 6<sup>4</sup> . 3 dưới dạng một lũy thừa ta được:",
+      "Viết kết quả phép tính 6<sup>3</sup>.2.6<sup>4</sup>.3 dưới dạng một lũy thừa ta được:",
     A: "6<sup>6</sup>",
     B: "6<sup>7</sup>",
     C: "6<sup>8</sup>",
@@ -3946,7 +3921,7 @@ const hardInt = [
   },
   {
     question:
-      "Số tự nhiên được biểu diễn bởi 2 . 10<sup>3</sup> + 7 . 10<sup>2</sup> + 8 . 10 + 7 . 10<sup>0</sup>  là:",
+      "Số tự nhiên được biểu diễn bởi 2.10<sup>3</sup> + 7.10<sup>2</sup> + 8.10 + 7.10<sup>0</sup> là:",
     A: "2 787",
     B: "2 7870",
     C: "278",
@@ -3979,7 +3954,7 @@ const hardInt = [
     answer: 4,
   },
   {
-    question: "Đưa 25. 10 . 4 thành lũy thừa cơ số 10:",
+    question: "Đưa 25.10.4 thành lũy thừa cơ số 10:",
     A: "10<sup>2</sup>",
     B: "10<sup>3</sup>",
     C: "10<sup>4</sup>",
@@ -4030,9 +4005,9 @@ const hardInt = [
   },
   {
     question: "Chọn đáp án đúng?",
-    A: "5<sup>2</sup> . 5<sup>3</sup> . 5<sup>4</sup> = 5<sup>10</sup>",
-    B: "5<sup>2</sup> . 5<sup>3</sup> . 25 = 5<sup>7</sup>",
-    C: "5<sup>3</sup> . 5 = 25<sup>3</sup>",
+    A: "5<sup>2</sup>.5<sup>3</sup>.5<sup>4</sup> = 5<sup>10</sup>",
+    B: "5<sup>2</sup>.5<sup>3</sup>.25 = 5<sup>7</sup>",
+    C: "5<sup>3</sup>.5 = 25<sup>3</sup>",
     D: "5<sup>1</sup> = 1",
     answer: 2,
   },
@@ -4079,7 +4054,7 @@ const hardInt = [
   },
   {
     question:
-      "Tìm số tự nhiên x, biết: 10 + 2x = 4<sup>5</sup> : 4<sup>3</sup>",
+      "Tìm số tự nhiên x, biết: 10 + 2x = 4<sup>5</sup>:4<sup>3</sup>",
     A: "3",
     B: "2",
     C: "1",
@@ -4138,6 +4113,14 @@ const answer4 = document.getElementById("answer4");
 const questionNumber = document.getElementById("questionNumber");
 const question = document.getElementById("question");
 
+var wrong = new Audio();
+wrong.src="./sound/false.mp3"
+var right = new Audio();
+right.src="./sound/true.mp3"
+var music=new Audio()
+music.src='./sound/music.mp3'
+music.autoplay = true;
+music.loop = true;
 let quizData;
 const result = 1;
 let score = 0;
@@ -4193,6 +4176,7 @@ function onTimesOut() {
 function checkTime() {
   timerCheck = setInterval(() => {
     timeOut = localStorage.getItem("timeOut");
+    music.play()
     console.log("time out:", timeOut);
     if (timeOut == "true") {
       console.log("het gio");
@@ -4205,6 +4189,7 @@ function handleCheck(val, pick) {
   console.log("nhan vat la:", character);
   if (val == quizData[curentQuiz].answer) {
     normalCharacter.src = funAvatar;
+    right.play()
     pick.style.backgroundColor = "#45D6A1";
     if (character == "bear" || character == "bear2") {
       normalCharacter.style.height = "34.5vw";
@@ -4217,6 +4202,7 @@ function handleCheck(val, pick) {
     }
     score++;
   } else {
+    wrong.play()
     normalCharacter.src = shockAvatar;
     normalCharacter.style.width = "23.25vw";
     normalCharacter.style.left = "81.37vw";
@@ -4246,6 +4232,7 @@ function loadQuiz() {
   normalCharacter.style.width = "20.5vw";
   normalCharacter.style.height = "29.25vw";
   normalCharacter.style.left = "84.37vw";
+  
   enablePick();
 }
 function cancelPick() {

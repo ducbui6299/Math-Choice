@@ -3726,11 +3726,5 @@ D:"149 viên bi",
 answer: 2
 },
 ]
+
 const allData =easyInt.concat(easyFloat,mediumInt,mediumFloat,hardFloat,hardInt)
-console.log("easy int",easyInt.length)
-console.log("meadium int",mediumInt.length)
-console.log("hard int",hardInt.length)
-console.log("easy float",easyFloat.length)
-console.log("medium float",mediumFloat.length)
-console.log("hard float",hardFloat.length)
-console.log("all data",allData.length)

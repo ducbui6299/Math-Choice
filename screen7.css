@@ -1,4 +1,3 @@
-
 .Screen1 {
   width: 100vw;
   height: 100vh;
@@ -63,46 +62,70 @@
   color: #373e4a;
 }
 .totalScoreContent {
-    display: flex;
-    position: absolute;
-    width: 26vw;
-    left: 37vw;
-    top: 61vh;
-    font-family: "Baloo";
-    text-align: center;
-    letter-spacing: -0.05em;
+  display: flex;
+  position: absolute;
+  width: 26vw;
+  left: 37vw;
+  top: 61vh;
+  font-family: "Baloo";
+  text-align: center;
+  letter-spacing: -0.05em;
 }
-.totalScore{
-    position: absolute;
-    padding-right: 1vh;
-    left: 34vw;
-    top: 62vh;
-    width: 16vw;
-    height: 8.856vw;
-    font-size: 10.38vw;
-    line-height: 15.74vh;
-    font-family: "Baloo";
-    text-align: right;
-    letter-spacing: -0.05em;
-    color:#b760ff;
+.totalScore {
+  position: absolute;
+  padding-right: 1vh;
+  left: 34vw;
+  top: 62vh;
+  width: 16vw;
+  height: 8.856vw;
+  font-size: 10.38vw;
+  line-height: 15.74vh;
+  font-family: "Baloo";
+  text-align: right;
+  letter-spacing: -0.05em;
+  color: #b760ff;
 }
-.totalQuiz{
-    position: absolute;
-    width: 11vw;
-    height: fit-content;
-    left: 50vw;
-    top: 64vh;
-    font-size: 6vw;
-    line-height: 15.74vh;
-    font-family: "Baloo";
-    text-align: left;
-    letter-spacing: -0.05em;
-    color:#752A6F;
+.totalQuiz {
+  position: absolute;
+  width: 11vw;
+  height: fit-content;
+  left: 50vw;
+  top: 64vh;
+  font-size: 6vw;
+  line-height: 15.74vh;
+  font-family: "Baloo";
+  text-align: left;
+  letter-spacing: -0.05em;
+  color: #752a6f;
 }
-.shineBg{
- position: absolute;
- width: 100%;
- height: 100%;
- top:0;
- left:0;
+.shineBg {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+.banner {
+  position: absolute;
+  width: 64.6vw;
+  height: 8.88vh;
+  left: 17.7vw;
+  top: 88vh;
+}
+#congatulation {
+  z-index: 10;
+  position: absolute;
+  width: 58vw;
+  height: fit-content;
+  left: 21vw;
+  top: 88.5vh;
+  font-family: "Baloo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 4.44vh;
+  line-height: 9.25vh;
+  text-align: center;
+  letter-spacing: -0.05em;
+  text-transform: uppercase;
+  color: #333333;
 }
