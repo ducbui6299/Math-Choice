@@ -9,6 +9,9 @@ const bear_screen2 = document.getElementById("bear_screen2");
 const rabit_screen2 = document.getElementById("rabit_screen2");
 const btn_continue = document.getElementById("btn_continue");
 const btn_pichAgain = document.getElementById("btn_pichAgain");
+var music=new Audio()
+music.src = "./sound/music.mp3";
+music.loop = true;
 function cancelEvent() {
   fox_screen2.style.pointerEvents = "none";
   bear2_screen2.style.pointerEvents = "none";
@@ -17,6 +20,7 @@ function cancelEvent() {
 }
 // Fox action
 fox_screen2.addEventListener("click", (e) => {
+  music.play()
   btn_continue.style.display = "block";
   btn_pichAgain.style.display="block";
   rabit_name.style.color = "#FFFFFF";
@@ -49,6 +53,7 @@ fox_screen2.addEventListener("mouseover", (e) => {
 
 // Rabit action
 rabit_screen2.addEventListener("click", (e) => {
+  music.play()
   rabit_name.style.color = "#B5FF93";
   fox_name.style.color = "#FFFFFF";
   bear_name.style.color = "#FFFFFF";
@@ -78,6 +83,7 @@ rabit_screen2.addEventListener("mouseover", (e) => {
 });
 //Bear action
 bear_screen2.addEventListener("mouseover", (e) => {
+  music.play()
   bear_name.style.color = "#FFFB93";
   rabit_name.style.color = "#FFFFFF";
   fox_name.style.color = "#FFFFFF";
@@ -88,6 +94,7 @@ bear_screen2.addEventListener("mouseover", (e) => {
   bear2_screen2.src = "./MathImg/Nor-study-Bear2.png";
 });
 bear_screen2.addEventListener("click", (e) => {
+  music.play()
   rabit_name.style.color = "#FFFFFF";
   fox_name.style.color = "#FFFFFF";
   bear2_name.style.color = "#FFFFFF";
@@ -120,6 +127,7 @@ bear2_screen2.addEventListener("mouseover", (e) => {
   bear_screen2.src = "./MathImg/Nor-study-Bear.png";
 });
 bear2_screen2.addEventListener("click", (e) => {
+  music.play()
   rabit_name.style.color = "#FFFFFF";
   fox_name.style.color = "#FFFFFF";
   bear_name.style.color = "#FFFFFF";
@@ -139,6 +147,7 @@ bear2_screen2.addEventListener("click", (e) => {
   // normalCharacter.src = "./MathImg/Nor-study-Bear.png";
 });
 function handlePickAgain(){
+  music.play()
   fox_screen2.style.pointerEvents = "unset";
   bear2_screen2.style.pointerEvents = "unset";
   rabit_screen2.style.pointerEvents = "unset";

@@ -5,8 +5,8 @@ const close_popup_btn = document.getElementById("close_popup_btn");
 let play = false;
 var music = new Audio();
 music.src = "./sound/music.mp3";
-playMusic();
 function showPopUp() {
+  music.play()
   blurBG.style.display = "block";
   infoPopUp.style.display = "block";
 }
